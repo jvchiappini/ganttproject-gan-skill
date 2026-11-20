@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/jvchiappini/ganttproject-gan-skill/schema/cronograma.schema.json",
+  "title": "Cronograma de obra para generar_gan.py",
+  "description": "Especificación de un cronograma que generar_gan.py convierte en un archivo .gan de GanttProject (Gantt + Diagrama de Recursos) e informe.py en un informe técnico.",
+  "type": "object",
+  "required": ["proyecto", "tareas"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "proyecto": {
+      "type": "object",
+      "required": ["inicio"],
+      "properties": {
+        "nombre": {"type": "string", "description": "Nombre de la obra."},
+        "empresa": {"type": "string"},
+        "inicio": {"type": "string", "format": "date", "description": "Fecha de inicio AAAA-MM-DD."},
+        "locale": {"type": "string", "default": "es_AR"},
+        "descripcion": {"type": "string"},
+        "web": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "calendario": {
+      "type": "object",
+      "properties": {
+        "dias_laborables": {
+          "type": "array",
+          "items": {"enum": ["lun", "mar", "mie", "jue", "vie", "sab", "dom"]},
+          "default": ["lun", "mar", "mie", "jue", "vie", "sab"]
+        },
+        "feriados_preset": {"enum": ["PY", "AR", null], "description": "Feriados nacionales calculados automáticamente (incluye Semana Santa)."},
+        "feriados": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string", "format": "date"},
+              {"type": "object", "required": ["fecha"], "properties": {"fecha": {"type": "string", "format": "date"}, "nombre": {"type": "string"}}}
+            ]
+          }
+        },
+        "periodos_no_laborables": {
+          "type": "array",
+          "description": "Recesos (p. ej. fin de año, vacaciones de la constructora).",
+          "items": {"type": "object", "required": ["desde", "hasta"],
+                    "properties": {"desde": {"type": "string", "format": "date"}, "hasta": {"type": "string", "format": "date"}, "nombre": {"type": "string"}}}
+        },
+        "excluir_feriados": {"type": "array", "items": {"type": "string", "format": "date"}}
+      },
+      "additionalProperties": false
+    },
+    "recursos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nombre"],
+        "properties": {
+          "id": {"type": "string", "description": "Código usado en las tareas (p. ej. OF, AY)."},
+          "abrev": {"type": "string"},
+          "nombre": {"type": "string"},
+          "rol": {"type": "string", "description": "Especialidad / función (aparece como 'Función' en GanttProject)."},
+          "costo_dia": {"type": "number", "minimum": 0},
+          "disponibles": {"type": "number", "exclusiveMinimum": 0, "description": "Tope diario para la nivelación."},
+          "contacto": {"type": "string"},
+          "telefono": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "opciones": {
+      "type": "object",
+      "properties": {
+        "modo_recursos": {"enum": ["individual", "agrupado"], "default": "individual"},
+        "nivelar": {"type": "boolean"},
+        "tarea_raiz": {"type": "boolean", "default": true},
+        "numerar": {"type": "boolean", "default": true},
+        "color_por_grupo": {"type": "boolean", "default": true},
+        "color_tareas": {"type": "string"},
+        "color_criticas": {"type": ["string", "null"]},
+        "color_permanentes": {"type": "string"},
+        "columnas_personalizadas": {"type": "boolean", "default": true},
+        "columnas_visibles": {"type": "array", "items": {"enum": ["computo", "rendimiento", "cuadrilla", "costo_mo", "costo_mat", "costo_total", "holgura"]}},
+        "columna_predecesoras": {"type": "boolean", "default": true},
+        "linea_base": {"type": ["boolean", "string"], "default": true},
+        "notas_automaticas": {"type": "boolean", "default": true},
+        "zoom": {"type": "integer"},
+        "version": {"type": "string", "default": "2.7.1"}
+      },
+      "additionalProperties": false
+    },
+    "informe": {
+      "type": "object",
+      "description": "Datos para informe.py.",
+      "properties": {
+        "documento": {"type": "string"}, "revision": {"type": "string"}, "cliente": {"type": "string"},
+        "ubicacion": {"type": "string"}, "elaboro": {"type": "string"}, "reviso": {"type": "string"},
+        "aprobo": {"type": "string"}, "logo": {"type": "string"}, "moneda": {"type": "string"},
+        "supuestos": {"type": "array", "items": {"type": "string"}},
+        "observaciones": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "tareas": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/tarea"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "tarea": {
+      "type": "object",
+      "required": ["nombre"],
+      "properties": {
+        "id": {"type": "string", "description": "Código EDT único (1, 1.1, 2.3...)."},
+        "nombre": {"type": "string"},
+        "hijos": {"type": "array", "items": {"$ref": "#/$defs/tarea"}},
+        "duracion": {"type": "integer", "minimum": 0, "description": "Días hábiles."},
+        "cantidad": {"type": "number", "minimum": 0},
+        "unidad": {"type": "string"},
+        "rendimiento": {"type": "number", "exclusiveMinimum": 0, "description": "Unidades por día por cuadrilla."},
+        "cuadrillas": {"type": "number", "exclusiveMinimum": 0},
+        "hito": {"type": "boolean"},
+        "abarca_obra": {"type": "boolean", "description": "Tarea permanente: dura toda la obra."},
+        "predecesoras": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string", "description": "ID[FS|SS|FF|SF|CF|CC|FC][+/-n], p. ej. '3.1', '4.1SS+2'."},
+              {"type": "object", "required": ["id"], "properties": {"id": {"type": "string"}, "tipo": {"enum": ["FS", "SS", "FF", "SF", "CF", "CC", "FC"]}, "desfase": {"type": "integer"}}}
+            ]
+          }
+        },
+        "recursos": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0}},
+        "responsable": {"type": "string"},
+        "inicio_no_antes": {"type": "string", "format": "date"},
+        "avance": {"type": "integer", "minimum": 0, "maximum": 100},
+        "notas": {"type": "string"},
+        "color": {"type": "string", "pattern": "^#[0-9a-fA-F]{6}$"},
+        "prioridad": {"type": "integer", "minimum": 0, "maximum": 4},
+        "expandir": {"type": "boolean"},
+        "web": {"type": "string"},
+        "costo_materiales": {"type": "number", "minimum": 0},
+        "precio_unitario_material": {"type": "number", "minimum": 0}
+      },
+      "additionalProperties": false
+    }
+  }
+}

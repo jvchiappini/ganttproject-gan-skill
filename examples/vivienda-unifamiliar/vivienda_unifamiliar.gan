@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Vivienda Unifamiliar - 2 plantas" company="" webLink="http://" view-date="2026-09-11" view-index="0" gantt-divider-location="700" resource-divider-location="300" version="2.7.1" locale="es_AR">
+    <description><![CDATA[Vivienda unifamiliar de dos plantas, aprox. 160 m2 cubiertos (PB 85 m2 + PA 75 m2). Fundación de zapatas y cimiento de PBC, estructura de HºAº con losa de entrepiso, mampostería de ladrillo común, techo de tejas sobre estructura de madera. Cómputos y rendimientos de referencia: reemplazarlos por los del proyecto.]]></description>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="55" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="15" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="15" order="2"/>
+        <option id="color.recent"><![CDATA[#8cb6ce #a5d6a7 #ffcc80 #ce93d8]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2026" month="1" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Año Nuevo]]></date>
+        <date year="2026" month="3" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día de los Héroes]]></date>
+        <date year="2026" month="4" date="2" type="HOLIDAY" color="#ff3300"><![CDATA[Jueves Santo]]></date>
+        <date year="2026" month="4" date="3" type="HOLIDAY" color="#ff3300"><![CDATA[Viernes Santo]]></date>
+        <date year="2026" month="5" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día del Trabajador]]></date>
+        <date year="2026" month="5" date="14" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional]]></date>
+        <date year="2026" month="5" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional / Día de la Madre]]></date>
+        <date year="2026" month="6" date="12" type="HOLIDAY" color="#ff3300"><![CDATA[Paz del Chaco]]></date>
+        <date year="2026" month="8" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Fundación de Asunción]]></date>
+        <date year="2026" month="9" date="29" type="HOLIDAY" color="#ff3300"><![CDATA[Victoria de Boquerón]]></date>
+        <date year="2026" month="12" date="8" type="HOLIDAY" color="#ff3300"><![CDATA[Virgen de Caacupé]]></date>
+        <date year="2026" month="12" date="24" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2026" month="12" date="25" type="HOLIDAY" color="#ff3300"><![CDATA[Navidad]]></date>
+        <date year="2026" month="12" date="26" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2026" month="12" date="28" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2026" month="12" date="29" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2026" month="12" date="30" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2026" month="12" date="31" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2027" month="1" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Año Nuevo]]></date>
+        <date year="2027" month="1" date="2" type="HOLIDAY" color="#ff3300"><![CDATA[Receso de fin de año]]></date>
+        <date year="2027" month="3" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día de los Héroes]]></date>
+        <date year="2027" month="3" date="25" type="HOLIDAY" color="#ff3300"><![CDATA[Jueves Santo]]></date>
+        <date year="2027" month="3" date="26" type="HOLIDAY" color="#ff3300"><![CDATA[Viernes Santo]]></date>
+        <date year="2027" month="5" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día del Trabajador]]></date>
+        <date year="2027" month="5" date="14" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional]]></date>
+        <date year="2027" month="5" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional / Día de la Madre]]></date>
+        <date year="2027" month="6" date="12" type="HOLIDAY" color="#ff3300"><![CDATA[Paz del Chaco]]></date>
+        <date year="2027" month="8" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Fundación de Asunción]]></date>
+        <date year="2027" month="9" date="29" type="HOLIDAY" color="#ff3300"><![CDATA[Victoria de Boquerón]]></date>
+        <date year="2027" month="12" date="8" type="HOLIDAY" color="#ff3300"><![CDATA[Virgen de Caacupé]]></date>
+        <date year="2027" month="12" date="25" type="HOLIDAY" color="#ff3300"><![CDATA[Navidad]]></date>
+        <date year="2028" month="1" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Año Nuevo]]></date>
+        <date year="2028" month="3" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día de los Héroes]]></date>
+        <date year="2028" month="4" date="13" type="HOLIDAY" color="#ff3300"><![CDATA[Jueves Santo]]></date>
+        <date year="2028" month="4" date="14" type="HOLIDAY" color="#ff3300"><![CDATA[Viernes Santo]]></date>
+        <date year="2028" month="5" date="1" type="HOLIDAY" color="#ff3300"><![CDATA[Día del Trabajador]]></date>
+        <date year="2028" month="5" date="14" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional]]></date>
+        <date year="2028" month="5" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Independencia Nacional / Día de la Madre]]></date>
+        <date year="2028" month="6" date="12" type="HOLIDAY" color="#ff3300"><![CDATA[Paz del Chaco]]></date>
+        <date year="2028" month="8" date="15" type="HOLIDAY" color="#ff3300"><![CDATA[Fundación de Asunción]]></date>
+        <date year="2028" month="9" date="29" type="HOLIDAY" color="#ff3300"><![CDATA[Victoria de Boquerón]]></date>
+        <date year="2028" month="12" date="8" type="HOLIDAY" color="#ff3300"><![CDATA[Virgen de Caacupé]]></date>
+        <date year="2028" month="12" date="25" type="HOLIDAY" color="#ff3300"><![CDATA[Navidad]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Cómputo" type="custom" valuetype="text"/>
+            <taskproperty id="tpc1" name="Rendimiento" type="custom" valuetype="text"/>
+            <taskproperty id="tpc2" name="Cuadrilla" type="custom" valuetype="text"/>
+            <taskproperty id="tpc3" name="Costo MO" type="custom" valuetype="text"/>
+            <taskproperty id="tpc4" name="Costo materiales" type="custom" valuetype="text"/>
+            <taskproperty id="tpc5" name="Costo total" type="custom" valuetype="text"/>
+            <taskproperty id="tpc6" name="Holgura" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Vivienda Unifamiliar - 2 plantas" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true">
+            <task id="2" name="1 Trabajos preliminares" meeting="false" start="2026-09-18" duration="7" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="8.930.000"/>
+                <customproperty taskproperty-id="tpc5" value="8.930.000"/>
+                <task id="3" name="1.1 Acta de inicio de obra" color="#8cb6ce" meeting="true" start="2026-09-18" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="4" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="4" name="1.2 Limpieza y nivelación del terreno" color="#8cb6ce" meeting="false" start="2026-09-18" duration="3" complete="0" expand="true" cost-manual-value="1170000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 300 m2 | Rendimiento: 100 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Ayudante x3
+Costo MO: 1.170.000 | Materiales: 0 | Total: 1.170.000
+Predecesoras: 1.1 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="5" type="1" difference="1" hardness="Strong"/>
+                    <depend id="6" type="1" difference="1" hardness="Strong"/>
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="300 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="100 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.170.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.170.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="5" name="1.3 Obrador, depósito y sanitario provisorio" color="#8cb6ce" meeting="false" start="2026-09-19" duration="4" complete="0" expand="true" cost-manual-value="1880000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Carpintero encofrador x1, Ayudante x2
+Costo MO: 1.880.000 | Materiales: 0 | Total: 1.880.000
+Predecesoras: 1.2 SS+1
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="7" type="1" difference="1" hardness="Strong"/>
+                    <depend id="8" type="2" difference="0" hardness="Strong"/>
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 CARP + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.880.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.880.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="6" name="1.4 Cerco de obra y portón provisorio" color="#8cb6ce" meeting="false" start="2026-09-19" duration="3" complete="0" expand="true" cost-manual-value="990000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 60 ml | Rendimiento: 20 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 990.000 | Materiales: 0 | Total: 990.000
+Predecesoras: 1.2 SS+1
+Holgura total: 3 | Holgura libre: 3]]></notes>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="60 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="20 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="990.000"/>
+                    <customproperty taskproperty-id="tpc5" value="990.000"/>
+                    <customproperty taskproperty-id="tpc6" value="3"/>
+                </task>
+                <task id="7" name="1.5 Conexiones provisorias de agua y energía" color="#8cb6ce" meeting="false" start="2026-09-21" duration="2" complete="0" expand="true" cost-manual-value="920000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1, Electricista x1
+Costo MO: 920.000 | Materiales: 0 | Total: 920.000
+Predecesoras: 1.3 SS+1
+Holgura total: 3 | Holgura libre: 3]]></notes>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 ELEC"/>
+                    <customproperty taskproperty-id="tpc3" value="920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="3"/>
+                </task>
+                <task id="8" name="1.6 Cartel de obra" color="#8cb6ce" meeting="false" start="2026-09-24" duration="1" complete="0" expand="true" cost-manual-value="130000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x1
+Costo MO: 130.000 | Materiales: 0 | Total: 130.000
+Predecesoras: 1.3 FS
+Holgura total: 1 | Holgura libre: 1]]></notes>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="130.000"/>
+                    <customproperty taskproperty-id="tpc5" value="130.000"/>
+                    <customproperty taskproperty-id="tpc6" value="1"/>
+                </task>
+                <task id="9" name="1.7 Replanteo planialtimétrico y caballetes" color="#8cb6ce" meeting="false" start="2026-09-22" duration="2" complete="0" expand="true" cost-manual-value="1920000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Topógrafo x1, Oficial albañil x1, Ayudante x2
+Costo MO: 1.920.000 | Materiales: 0 | Total: 1.920.000
+Predecesoras: 1.2 FS
+Holgura total: 2 | Holgura libre: 2]]></notes>
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 TOP + 1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="10" name="1.8 Acopio inicial de materiales" color="#8cb6ce" meeting="false" start="2026-09-24" duration="2" complete="0" expand="true" cost-manual-value="1920000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x2, Camión volcador (con chofer) x1
+Costo MO: 1.920.000 | Materiales: 0 | Total: 1.920.000
+Predecesoras: 1.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="2 AY + 1 CAM"/>
+                    <customproperty taskproperty-id="tpc3" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="11" name="1.9 Obrador y servicios provisorios habilitados" color="#8cb6ce" meeting="true" start="2026-09-26" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 1.3 FS, 1.4 FS, 1.5 FS, 1.6 FS, 1.8 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="12" name="2 Movimiento de suelos" meeting="false" start="2026-09-26" duration="5" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="8.470.000"/>
+                <customproperty taskproperty-id="tpc5" value="8.470.000"/>
+                <task id="13" name="2.1 Excavación de zanjas para cimientos" color="#a5d6a7" meeting="false" start="2026-09-26" duration="3" complete="0" expand="true" cost-manual-value="4380000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 38 m3 | Rendimiento: 15 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Retroexcavadora (con operador) x1, Ayudante x2
+Costo MO: 4.380.000 | Materiales: 0 | Total: 4.380.000
+Predecesoras: 1.7 FS, 1.9 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="38 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 RETRO + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="4.380.000"/>
+                    <customproperty taskproperty-id="tpc5" value="4.380.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="14" name="2.2 Excavación manual de pozos para zapatas" color="#a5d6a7" meeting="false" start="2026-09-26" duration="4" complete="0" expand="true" cost-manual-value="2080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 18 m3 | Rendimiento: 2.5 m3/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Ayudante x4
+Costo MO: 2.080.000 | Materiales: 0 | Total: 2.080.000
+Predecesoras: 1.7 FS, 1.9 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="15" type="1" difference="2" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="18 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="2.5 m3/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="4 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="15" name="2.3 Retiro de tierra sobrante" color="#a5d6a7" meeting="false" start="2026-10-01" duration="2" complete="0" expand="true" cost-manual-value="1660000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 40 m3 | Rendimiento: 30 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Camión volcador (con chofer) x1, Ayudante x1
+Costo MO: 1.660.000 | Materiales: 0 | Total: 1.660.000
+Predecesoras: 2.1 FS, 2.2 SS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="40 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="30 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 CAM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.660.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.660.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="16" name="2.4 Perfilado y compactación de fondo de excavación" color="#a5d6a7" meeting="false" start="2026-10-02" duration="1" complete="0" expand="true" cost-manual-value="350000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x2, Compactadora (pisón) x1
+Costo MO: 350.000 | Materiales: 0 | Total: 350.000
+Predecesoras: 2.1 FS, 2.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="2 AY + 1 COMP"/>
+                    <customproperty taskproperty-id="tpc3" value="350.000"/>
+                    <customproperty taskproperty-id="tpc5" value="350.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="17" name="2.5 Control: inspección de excavaciones y suelo de fundación" color="#a5d6a7" meeting="true" start="2026-10-03" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 2.4 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="18" name="3 Fundaciones" meeting="false" start="2026-10-03" duration="28" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="19.350.000"/>
+                <customproperty taskproperty-id="tpc5" value="19.350.000"/>
+                <task id="19" name="3.1 Hormigón de limpieza" color="#ffcc80" meeting="false" start="2026-10-03" duration="1" complete="0" expand="true" cost-manual-value="670000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 3 m3 | Rendimiento: 3 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 1 días hábiles
+Recursos: Oficial albañil x1, Ayudante x3, Hormigonera 350 L x1
+Costo MO: 670.000 | Materiales: 0 | Total: 670.000
+Predecesoras: 2.5 FS, 2.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="3 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="3 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 3 AY + 1 HORM"/>
+                    <customproperty taskproperty-id="tpc3" value="670.000"/>
+                    <customproperty taskproperty-id="tpc5" value="670.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="20" name="3.2 Armadura de zapatas y arranques de pilares" color="#ffcc80" meeting="false" start="2026-10-05" duration="3" complete="0" expand="true" cost-manual-value="2040000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 900 kg | Rendimiento: 180 kg/día por cuadrilla | Cuadrillas: 2 | Duración: 3 días hábiles
+Recursos: Armador x2, Ayudante x2
+Costo MO: 2.040.000 | Materiales: 0 | Total: 2.040.000
+Predecesoras: 3.1 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="900 kg"/>
+                    <customproperty taskproperty-id="tpc1" value="180 kg/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.040.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.040.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="21" name="3.3 Control: inspección de armaduras de zapatas" color="#ffcc80" meeting="true" start="2026-10-08" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 3.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="22" name="3.4 Hormigonado de zapatas (con toma de probetas)" color="#ffcc80" meeting="false" start="2026-10-08" duration="2" complete="0" expand="true" cost-manual-value="1980000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 9 m3 | Rendimiento: 6 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Oficial albañil x1, Ayudante x5, Hormigonera 350 L x1, Vibrador de inmersión x1
+Costo MO: 1.980.000 | Materiales: 0 | Total: 1.980.000
+Predecesoras: 3.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="23" type="2" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="9 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="6 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 5 AY + 1 HORM + 1 VIB"/>
+                    <customproperty taskproperty-id="tpc3" value="1.980.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.980.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="23" name="3.5 Cimiento de piedra bruta colocada (PBC)" color="#ffcc80" meeting="false" start="2026-10-13" duration="4" complete="0" expand="true" cost-manual-value="3680000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 22 m3 | Rendimiento: 3 m3/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Oficial albañil x2, Ayudante x4
+Costo MO: 3.680.000 | Materiales: 0 | Total: 3.680.000
+Predecesoras: 3.4 FS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="24" type="1" difference="3" hardness="Strong"/>
+                    <depend id="24" type="3" difference="1" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="22 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="3 m3/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 4 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="3.680.000"/>
+                    <customproperty taskproperty-id="tpc5" value="3.680.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="24" name="3.6 Viga de fundación / encadenado inferior de HºAº" color="#ffcc80" meeting="false" start="2026-10-16" duration="6" complete="0" expand="true" cost-manual-value="7080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 4.5 m3 | Rendimiento: 0.75 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 6 días hábiles
+Recursos: Armador x2, Carpintero encofrador x2, Ayudante x2, Hormigonera 350 L x1
+Costo MO: 7.080.000 | Materiales: 0 | Total: 7.080.000
+Predecesoras: 3.5 SS+3, 3.5 FF+1
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="25" type="2" difference="2" hardness="Strong"/>
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="4.5 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="0.75 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 2 CARP + 2 AY + 1 HORM"/>
+                    <customproperty taskproperty-id="tpc3" value="7.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="7.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="25" name="3.7 Mampostería de nivelación (sobrecimiento)" color="#ffcc80" meeting="false" start="2026-10-26" duration="2" complete="0" expand="true" cost-manual-value="1320000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 18 m2 | Rendimiento: 6 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 2 días hábiles
+Recursos: Oficial albañil x2, Ayudante x2
+Costo MO: 1.320.000 | Materiales: 0 | Total: 1.320.000
+Predecesoras: 3.6 FS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                    <depend id="31" type="1" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="18 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="6 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.320.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.320.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="26" name="3.8 Aislación hidrófuga horizontal (doble capa aisladora)" color="#ffcc80" meeting="false" start="2026-10-28" duration="2" complete="0" expand="true" cost-manual-value="660000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 65 ml | Rendimiento: 35 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 660.000 | Materiales: 0 | Total: 660.000
+Predecesoras: 3.7 FS
+Holgura total: 2 | Holgura libre: 0]]></notes>
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                    <depend id="60" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="65 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="35 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="660.000"/>
+                    <customproperty taskproperty-id="tpc5" value="660.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="27" name="3.9 Relleno y compactación interior por capas" color="#ffcc80" meeting="false" start="2026-10-31" duration="4" complete="0" expand="true" cost-manual-value="1920000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 40 m3 | Rendimiento: 10 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Ayudante x3, Compactadora (pisón) x1
+Costo MO: 1.920.000 | Materiales: 0 | Total: 1.920.000
+Predecesoras: 3.8 FS, 7.1 SS+1
+Holgura total: 67 | Holgura libre: 55]]></notes>
+                    <depend id="86" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="40 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="10 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="3 AY + 1 COMP"/>
+                    <customproperty taskproperty-id="tpc3" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="67"/>
+                </task>
+                <task id="28" name="3.10 Fundaciones terminadas" color="#ffcc80" meeting="true" start="2026-10-30" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 3.8 FS
+Holgura total: 102 | Holgura libre: 20]]></notes>
+                    <depend id="115" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="102"/>
+                </task>
+            </task>
+            <task id="29" name="4 Estructura de hormigón armado" meeting="false" start="2026-10-23" duration="54" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="29.585.000"/>
+                <customproperty taskproperty-id="tpc5" value="29.585.000"/>
+                <task id="30" name="4.1 Pilares PB: armadura" color="#ce93d8" meeting="false" start="2026-10-23" duration="2" complete="0" expand="true" cost-manual-value="1100000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 600 kg | Rendimiento: 180 kg/día por cuadrilla | Cuadrillas: 2 | Duración: 2 días hábiles
+Recursos: Armador x2, Ayudante x1
+Costo MO: 1.100.000 | Materiales: 0 | Total: 1.100.000
+Predecesoras: 3.6 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="31" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="600 kg"/>
+                    <customproperty taskproperty-id="tpc1" value="180 kg/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.100.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.100.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="31" name="4.2 Pilares PB: encofrado y hormigonado" color="#ce93d8" meeting="false" start="2026-10-26" duration="4" complete="0" expand="true" cost-manual-value="4080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 3 m3 | Rendimiento: 0.8 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Carpintero encofrador x2, Oficial albañil x1, Ayudante x2, Hormigonera 350 L x1, Vibrador de inmersión x1
+Costo MO: 4.080.000 | Materiales: 0 | Total: 4.080.000
+Predecesoras: 4.1 FS, 3.7 SS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="32" type="2" difference="3" hardness="Strong"/>
+                    <depend id="44" type="2" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="3 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="0.8 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 CARP + 1 OF + 2 AY + 1 HORM + 1 VIB"/>
+                    <customproperty taskproperty-id="tpc3" value="4.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="4.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="32" name="4.3 Encofrado de vigas y losa de entrepiso (con apuntalamiento)" color="#ce93d8" meeting="false" start="2026-11-13" duration="4" complete="0" expand="true" cost-manual-value="2720000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 85 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Carpintero encofrador x2, Ayudante x2
+Costo MO: 2.720.000 | Materiales: 0 | Total: 2.720.000
+Predecesoras: 5.1 FS, 4.2 FS+3, 5.2 FS, 5.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="33" type="1" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="85 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 CARP + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="33" name="4.4 Armadura de vigas y losa de entrepiso" color="#ce93d8" meeting="false" start="2026-11-16" duration="5" complete="0" expand="true" cost-manual-value="3400000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 2100 kg | Rendimiento: 220 kg/día por cuadrilla | Cuadrillas: 2 | Duración: 5 días hábiles
+Recursos: Armador x2, Ayudante x2
+Costo MO: 3.400.000 | Materiales: 0 | Total: 3.400.000
+Predecesoras: 4.3 SS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                    <depend id="70" type="1" difference="3" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="2100 kg"/>
+                    <customproperty taskproperty-id="tpc1" value="220 kg/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="3.400.000"/>
+                    <customproperty taskproperty-id="tpc5" value="3.400.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="34" name="4.5 Control: inspección de encofrados, armaduras y cañerías en losa" color="#ce93d8" meeting="true" start="2026-11-21" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 4.4 FS, 8.1 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="35" name="4.6 Hormigonado de losa de entrepiso (HºAº elaborado + bomba)" color="#ce93d8" meeting="false" start="2026-11-21" duration="1" complete="0" expand="true" cost-manual-value="1240000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 11 m3 | Rendimiento: 15 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 1 días hábiles
+Recursos: Oficial albañil x2, Ayudante x6, Vibrador de inmersión x1
+Costo MO: 1.240.000 | Materiales: 0 | Total: 1.240.000
+Predecesoras: 4.5 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="36" type="2" difference="0" hardness="Strong"/>
+                    <depend id="37" type="2" difference="3" hardness="Strong"/>
+                    <depend id="39" type="2" difference="5" hardness="Strong"/>
+                    <depend id="40" type="2" difference="18" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="11 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 6 AY + 1 VIB"/>
+                    <customproperty taskproperty-id="tpc3" value="1.240.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.240.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="36" name="4.7 Curado de losa de entrepiso (riego 7 días)" color="#ce93d8" meeting="false" start="2026-11-23" duration="7" complete="0" expand="true" cost-manual-value="455000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x0.5
+Costo MO: 455.000 | Materiales: 0 | Total: 455.000
+Predecesoras: 4.6 FS
+Holgura total: 20 | Holgura libre: 18]]></notes>
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="0.5 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="455.000"/>
+                    <customproperty taskproperty-id="tpc5" value="455.000"/>
+                    <customproperty taskproperty-id="tpc6" value="20"/>
+                </task>
+                <task id="37" name="4.8 Pilares PA: armadura" color="#ce93d8" meeting="false" start="2026-11-26" duration="2" complete="0" expand="true" cost-manual-value="1100000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 450 kg | Rendimiento: 180 kg/día por cuadrilla | Cuadrillas: 2 | Duración: 2 días hábiles
+Recursos: Armador x2, Ayudante x1
+Costo MO: 1.100.000 | Materiales: 0 | Total: 1.100.000
+Predecesoras: 4.6 FS+3
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="38" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="450 kg"/>
+                    <customproperty taskproperty-id="tpc1" value="180 kg/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.100.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.100.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="38" name="4.9 Pilares PA: encofrado y hormigonado" color="#ce93d8" meeting="false" start="2026-11-28" duration="4" complete="0" expand="true" cost-manual-value="4080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 2.5 m3 | Rendimiento: 0.8 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Carpintero encofrador x2, Oficial albañil x1, Ayudante x2, Hormigonera 350 L x1, Vibrador de inmersión x1
+Costo MO: 4.080.000 | Materiales: 0 | Total: 4.080.000
+Predecesoras: 4.8 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="47" type="2" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="2.5 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="0.8 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 CARP + 1 OF + 2 AY + 1 HORM + 1 VIB"/>
+                    <customproperty taskproperty-id="tpc3" value="4.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="4.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="39" name="4.10 Escalera de HºAº" color="#ce93d8" meeting="false" start="2026-12-03" duration="5" complete="0" thirdDate="2026-12-03" thirdDate-constraint="1" expand="true" cost-manual-value="3800000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 2 m3 | Rendimiento: 0.4 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 5 días hábiles
+Recursos: Armador x1, Carpintero encofrador x1, Ayudante x2, Hormigonera 350 L x1
+Costo MO: 3.800.000 | Materiales: 0 | Total: 3.800.000
+Predecesoras: 4.6 FS+5
+Holgura total: 16 | Holgura libre: 14
+Retrasada por nivelación de recursos (4 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="2 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="0.4 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ARM + 1 CARP + 2 AY + 1 HORM"/>
+                    <customproperty taskproperty-id="tpc3" value="3.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="3.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="16"/>
+                </task>
+                <task id="40" name="4.11 Desencofrado de losa de entrepiso" color="#ce93d8" meeting="false" start="2026-12-23" duration="3" complete="0" thirdDate="2026-12-23" thirdDate-constraint="1" expand="true" cost-manual-value="1410000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Carpintero encofrador x1, Ayudante x2
+Costo MO: 1.410.000 | Materiales: 0 | Total: 1.410.000
+Predecesoras: 4.6 FS+18, 4.7 FS
+Holgura total: 2 | Holgura libre: 0
+Retrasada por nivelación de recursos (7 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                    <depend id="80" type="2" difference="0" hardness="Strong"/>
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 CARP + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.410.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.410.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="41" name="4.12 Encadenado superior PA (viga de techo)" color="#ce93d8" meeting="false" start="2026-12-17" duration="5" complete="0" expand="true" cost-manual-value="6200000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 3.5 m3 | Rendimiento: 0.7 m3/día por cuadrilla | Cuadrillas: 1 | Duración: 5 días hábiles
+Recursos: Armador x2, Carpintero encofrador x2, Ayudante x2, Hormigonera 350 L x1, Vibrador de inmersión x1
+Costo MO: 6.200.000 | Materiales: 0 | Total: 6.200.000
+Predecesoras: 5.4 FS, 5.5 FS, 5.6 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                    <depend id="50" type="2" difference="3" hardness="Strong"/>
+                    <depend id="65" type="2" difference="5" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="3.5 m3"/>
+                    <customproperty taskproperty-id="tpc1" value="0.7 m3/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 ARM + 2 CARP + 2 AY + 1 HORM + 1 VIB"/>
+                    <customproperty taskproperty-id="tpc3" value="6.200.000"/>
+                    <customproperty taskproperty-id="tpc5" value="6.200.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="42" name="4.13 Estructura de HºAº terminada" color="#ce93d8" meeting="true" start="2027-01-06" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 4.10 FS, 4.11 FS, 4.12 FS
+Holgura total: 2 | Holgura libre: 2]]></notes>
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+            </task>
+            <task id="43" name="5 Mampostería" meeting="false" start="2026-11-02" duration="48" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="23.810.000"/>
+                <customproperty taskproperty-id="tpc5" value="23.810.000"/>
+                <task id="44" name="5.1 Mampostería de elevación PB (ladrillo común)" color="#90caf9" meeting="false" start="2026-11-02" duration="10" complete="0" expand="true" cost-manual-value="9900000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 260 m2 | Rendimiento: 9 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 10 días hábiles
+Recursos: Oficial albañil x3, Ayudante x3
+Costo MO: 9.900.000 | Materiales: 0 | Total: 9.900.000
+Predecesoras: 4.2 FS+2, 3.8 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <depend id="45" type="1" difference="3" hardness="Strong"/>
+                    <depend id="46" type="1" difference="5" hardness="Strong"/>
+                    <depend id="62" type="2" difference="0" hardness="Strong"/>
+                    <depend id="71" type="2" difference="0" hardness="Strong"/>
+                    <depend id="73" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="260 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="9 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 OF + 3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="9.900.000"/>
+                    <customproperty taskproperty-id="tpc5" value="9.900.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="45" name="5.2 Colocación de marcos de aberturas PB" color="#90caf9" meeting="false" start="2026-11-05" duration="3" complete="0" expand="true" cost-manual-value="990000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 14 un | Rendimiento: 5 un/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 990.000 | Materiales: 0 | Total: 990.000
+Predecesoras: 5.1 SS+3
+Holgura total: 4 | Holgura libre: 4]]></notes>
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="14 un"/>
+                    <customproperty taskproperty-id="tpc1" value="5 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="990.000"/>
+                    <customproperty taskproperty-id="tpc5" value="990.000"/>
+                    <customproperty taskproperty-id="tpc6" value="4"/>
+                </task>
+                <task id="46" name="5.3 Dinteles y encadenados intermedios PB" color="#90caf9" meeting="false" start="2026-11-07" duration="3" complete="0" expand="true" cost-manual-value="1020000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Armador x1, Ayudante x1
+Costo MO: 1.020.000 | Materiales: 0 | Total: 1.020.000
+Predecesoras: 5.1 SS+5
+Holgura total: 2 | Holgura libre: 2]]></notes>
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ARM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.020.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.020.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="47" name="5.4 Mampostería de elevación PA (ladrillo común)" color="#90caf9" meeting="false" start="2026-12-05" duration="9" complete="0" expand="true" cost-manual-value="8910000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 220 m2 | Rendimiento: 9 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 9 días hábiles
+Recursos: Oficial albañil x3, Ayudante x3
+Costo MO: 8.910.000 | Materiales: 0 | Total: 8.910.000
+Predecesoras: 4.9 FS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="41" type="2" difference="0" hardness="Strong"/>
+                    <depend id="48" type="1" difference="3" hardness="Strong"/>
+                    <depend id="49" type="1" difference="4" hardness="Strong"/>
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                    <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="220 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="9 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 OF + 3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="8.910.000"/>
+                    <customproperty taskproperty-id="tpc5" value="8.910.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="48" name="5.5 Colocación de marcos de aberturas PA" color="#90caf9" meeting="false" start="2026-12-10" duration="3" complete="0" expand="true" cost-manual-value="990000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 12 un | Rendimiento: 5 un/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 990.000 | Materiales: 0 | Total: 990.000
+Predecesoras: 5.4 SS+3
+Holgura total: 3 | Holgura libre: 3]]></notes>
+                    <depend id="41" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="12 un"/>
+                    <customproperty taskproperty-id="tpc1" value="5 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="990.000"/>
+                    <customproperty taskproperty-id="tpc5" value="990.000"/>
+                    <customproperty taskproperty-id="tpc6" value="3"/>
+                </task>
+                <task id="49" name="5.6 Dinteles PA" color="#90caf9" meeting="false" start="2026-12-11" duration="2" complete="0" expand="true" cost-manual-value="680000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Armador x1, Ayudante x1
+Costo MO: 680.000 | Materiales: 0 | Total: 680.000
+Predecesoras: 5.4 SS+4
+Holgura total: 3 | Holgura libre: 3]]></notes>
+                    <depend id="41" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ARM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="680.000"/>
+                    <customproperty taskproperty-id="tpc5" value="680.000"/>
+                    <customproperty taskproperty-id="tpc6" value="3"/>
+                </task>
+                <task id="50" name="5.7 Mampostería de tímpanos y cargas de techo" color="#90caf9" meeting="false" start="2027-01-06" duration="2" complete="0" expand="true" cost-manual-value="1320000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 25 m2 | Rendimiento: 8 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 2 días hábiles
+Recursos: Oficial albañil x2, Ayudante x2
+Costo MO: 1.320.000 | Materiales: 0 | Total: 1.320.000
+Predecesoras: 4.12 FS+3
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="25 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="8 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.320.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.320.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="51" name="6 Techo y cubierta" meeting="false" start="2027-01-08" duration="15" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="9.920.000"/>
+                <customproperty taskproperty-id="tpc5" value="9.920.000"/>
+                <task id="52" name="6.1 Estructura de madera (vigas y tirantes)" color="#f48fb1" meeting="false" start="2027-01-08" duration="4" complete="0" expand="true" cost-manual-value="2720000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 90 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Techista x2, Ayudante x2
+Costo MO: 2.720.000 | Materiales: 0 | Total: 2.720.000
+Predecesoras: 5.7 FS, 4.13 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="53" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="90 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 TECH + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="53" name="6.2 Entablonado / machimbre" color="#f48fb1" meeting="false" start="2027-01-13" duration="3" complete="0" expand="true" cost-manual-value="2040000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 90 m2 | Rendimiento: 20 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 3 días hábiles
+Recursos: Techista x2, Ayudante x2
+Costo MO: 2.040.000 | Materiales: 0 | Total: 2.040.000
+Predecesoras: 6.1 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="54" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="90 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="20 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 TECH + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.040.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.040.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="54" name="6.3 Aislación térmica e hidrófuga (membrana)" color="#f48fb1" meeting="false" start="2027-01-16" duration="2" complete="0" expand="true" cost-manual-value="680000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 90 m2 | Rendimiento: 50 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Techista x1, Ayudante x1
+Costo MO: 680.000 | Materiales: 0 | Total: 680.000
+Predecesoras: 6.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                    <depend id="99" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="90 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="50 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 TECH + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="680.000"/>
+                    <customproperty taskproperty-id="tpc5" value="680.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="55" name="6.4 Cubierta de tejas cerámicas" color="#f48fb1" meeting="false" start="2027-01-19" duration="4" complete="0" expand="true" cost-manual-value="2720000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 95 m2 | Rendimiento: 15 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Techista x2, Ayudante x2
+Costo MO: 2.720.000 | Materiales: 0 | Total: 2.720.000
+Predecesoras: 6.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="56" type="2" difference="0" hardness="Strong"/>
+                    <depend id="57" type="1" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="95 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 TECH + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="56" name="6.5 Cumbreras, limatesas y babetas" color="#f48fb1" meeting="false" start="2027-01-23" duration="2" complete="0" expand="true" cost-manual-value="680000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Techista x1, Ayudante x1
+Costo MO: 680.000 | Materiales: 0 | Total: 680.000
+Predecesoras: 6.4 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 TECH + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="680.000"/>
+                    <customproperty taskproperty-id="tpc5" value="680.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="57" name="6.6 Canaletas y bajadas pluviales" color="#f48fb1" meeting="false" start="2027-01-21" duration="3" complete="0" expand="true" cost-manual-value="1080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 40 ml | Rendimiento: 15 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Herrero / aberturista x1, Ayudante x1
+Costo MO: 1.080.000 | Materiales: 0 | Total: 1.080.000
+Predecesoras: 6.4 SS+2
+Holgura total: 1 | Holgura libre: 0]]></notes>
+                    <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="40 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="15 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 HERR + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="1"/>
+                </task>
+                <task id="58" name="6.7 Obra bajo techo" color="#f48fb1" meeting="true" start="2027-01-26" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 6.5 FS, 6.6 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="59" name="7 Instalación sanitaria" meeting="false" start="2026-10-03" duration="131" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="10.420.000"/>
+                <customproperty taskproperty-id="tpc5" value="10.420.000"/>
+                <task id="60" name="7.1 Desagüe cloacal primario bajo piso y cámaras de inspección" color="#bcaaa4" meeting="false" start="2026-10-30" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 45 ml | Rendimiento: 12 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 3.8 FS
+Holgura total: 67 | Holgura libre: 0]]></notes>
+                    <depend id="27" type="1" difference="1" hardness="Strong"/>
+                    <depend id="86" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="45 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="12 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="67"/>
+                </task>
+                <task id="61" name="7.2 Cámara séptica y pozo absorbente" color="#bcaaa4" meeting="false" start="2026-10-03" duration="6" complete="0" expand="true" cost-manual-value="2760000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Oficial albañil x1, Ayudante x2
+Costo MO: 2.760.000 | Materiales: 0 | Total: 2.760.000
+Predecesoras: 2.5 FS
+Holgura total: 124 | Holgura libre: 124]]></notes>
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.760.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.760.000"/>
+                    <customproperty taskproperty-id="tpc6" value="124"/>
+                </task>
+                <task id="62" name="7.3 Cañería embutida de agua fría/caliente y desagües PB" color="#bcaaa4" meeting="false" start="2026-11-13" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 5.1 FS
+Holgura total: 36 | Holgura libre: 24]]></notes>
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                    <depend id="80" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="36"/>
+                </task>
+                <task id="63" name="7.4 Cañería embutida de agua fría/caliente y desagües PA" color="#bcaaa4" meeting="false" start="2026-12-17" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 5.4 FS, 7.3 FS
+Holgura total: 12 | Holgura libre: 0]]></notes>
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="12"/>
+                </task>
+                <task id="64" name="7.5 Prueba hidráulica de cañerías" color="#bcaaa4" meeting="false" start="2026-12-22" duration="1" complete="0" expand="true" cost-manual-value="230000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1
+Costo MO: 230.000 | Materiales: 0 | Total: 230.000
+Predecesoras: 7.4 FS
+Holgura total: 12 | Holgura libre: 0]]></notes>
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    <depend id="84" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM"/>
+                    <customproperty taskproperty-id="tpc3" value="230.000"/>
+                    <customproperty taskproperty-id="tpc5" value="230.000"/>
+                    <customproperty taskproperty-id="tpc6" value="12"/>
+                </task>
+                <task id="65" name="7.6 Tanque elevado, montante y colector" color="#bcaaa4" meeting="false" start="2027-01-08" duration="2" complete="0" expand="true" cost-manual-value="720000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 720.000 | Materiales: 0 | Total: 720.000
+Predecesoras: 4.12 FS+5
+Holgura total: 55 | Holgura libre: 55]]></notes>
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="55"/>
+                </task>
+                <task id="66" name="7.7 Desagües pluviales a nivel de terreno" color="#bcaaa4" meeting="false" start="2027-01-25" duration="2" complete="0" expand="true" cost-manual-value="720000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 30 ml | Rendimiento: 15 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 720.000 | Materiales: 0 | Total: 720.000
+Predecesoras: 6.6 FS
+Holgura total: 42 | Holgura libre: 32]]></notes>
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="30 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="15 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="42"/>
+                </task>
+                <task id="67" name="7.8 Colocación de artefactos sanitarios y griferías" color="#bcaaa4" meeting="false" start="2027-03-12" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 14 un | Rendimiento: 4 un/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Plomero sanitarista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 11.3 FS, 14.5 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="14 un"/>
+                    <customproperty taskproperty-id="tpc1" value="4 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="68" name="7.9 Prueba final y puesta en servicio sanitaria" color="#bcaaa4" meeting="false" start="2027-03-17" duration="1" complete="0" expand="true" cost-manual-value="230000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Plomero sanitarista x1
+Costo MO: 230.000 | Materiales: 0 | Total: 230.000
+Predecesoras: 7.8 FS, 7.5 FS, 7.6 FS, 7.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PLOM"/>
+                    <customproperty taskproperty-id="tpc3" value="230.000"/>
+                    <customproperty taskproperty-id="tpc5" value="230.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="69" name="8 Instalación eléctrica" meeting="false" start="2026-11-13" duration="95" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="8.490.000"/>
+                <customproperty taskproperty-id="tpc5" value="8.490.000"/>
+                <task id="70" name="8.1 Cañería eléctrica en losa de entrepiso" color="#80cbc4" meeting="false" start="2026-11-19" duration="2" complete="0" expand="true" cost-manual-value="720000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1, Ayudante x1
+Costo MO: 720.000 | Materiales: 0 | Total: 720.000
+Predecesoras: 4.4 SS+3
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="71" name="8.2 Cañerías y cajas embutidas en muros PB" color="#80cbc4" meeting="false" start="2026-11-13" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 45 bocas | Rendimiento: 12 bocas/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Electricista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 5.1 FS
+Holgura total: 45 | Holgura libre: 24]]></notes>
+                    <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    <depend id="80" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="45 bocas"/>
+                    <customproperty taskproperty-id="tpc1" value="12 bocas/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="45"/>
+                </task>
+                <task id="72" name="8.3 Cañerías y cajas embutidas en muros PA" color="#80cbc4" meeting="false" start="2026-12-17" duration="4" complete="0" expand="true" cost-manual-value="1440000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 40 bocas | Rendimiento: 12 bocas/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Electricista x1, Ayudante x1
+Costo MO: 1.440.000 | Materiales: 0 | Total: 1.440.000
+Predecesoras: 5.4 FS, 8.2 FS
+Holgura total: 21 | Holgura libre: 0]]></notes>
+                    <depend id="74" type="2" difference="0" hardness="Strong"/>
+                    <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                    <depend id="99" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="40 bocas"/>
+                    <customproperty taskproperty-id="tpc1" value="12 bocas/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.440.000"/>
+                    <customproperty taskproperty-id="tpc6" value="21"/>
+                </task>
+                <task id="73" name="8.4 Pilastra, medidor y acometida" color="#80cbc4" meeting="false" start="2026-11-13" duration="2" complete="0" expand="true" cost-manual-value="860000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1, Oficial albañil x1
+Costo MO: 860.000 | Materiales: 0 | Total: 860.000
+Predecesoras: 5.1 FS
+Holgura total: 91 | Holgura libre: 66]]></notes>
+                    <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 OF"/>
+                    <customproperty taskproperty-id="tpc3" value="860.000"/>
+                    <customproperty taskproperty-id="tpc5" value="860.000"/>
+                    <customproperty taskproperty-id="tpc6" value="91"/>
+                </task>
+                <task id="74" name="8.5 Instalaciones débiles (datos, TV, CCTV, portero)" color="#80cbc4" meeting="false" start="2026-12-22" duration="2" complete="0" expand="true" cost-manual-value="460000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1
+Costo MO: 460.000 | Materiales: 0 | Total: 460.000
+Predecesoras: 8.3 FS
+Holgura total: 53 | Holgura libre: 32]]></notes>
+                    <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC"/>
+                    <customproperty taskproperty-id="tpc3" value="460.000"/>
+                    <customproperty taskproperty-id="tpc5" value="460.000"/>
+                    <customproperty taskproperty-id="tpc6" value="53"/>
+                </task>
+                <task id="75" name="8.6 Cableado de circuitos" color="#80cbc4" meeting="false" start="2027-02-10" duration="5" complete="0" expand="true" cost-manual-value="1800000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 85 bocas | Rendimiento: 20 bocas/día por cuadrilla | Cuadrillas: 1 | Duración: 5 días hábiles
+Recursos: Electricista x1, Ayudante x1
+Costo MO: 1.800.000 | Materiales: 0 | Total: 1.800.000
+Predecesoras: 9.2 FS, 8.3 FS, 12.1 FS, 8.5 FS
+Holgura total: 21 | Holgura libre: 0]]></notes>
+                    <depend id="76" type="1" difference="2" hardness="Strong"/>
+                    <depend id="77" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="85 bocas"/>
+                    <customproperty taskproperty-id="tpc1" value="20 bocas/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="21"/>
+                </task>
+                <task id="76" name="8.7 Tableros principal y seccionales" color="#80cbc4" meeting="false" start="2027-02-12" duration="2" complete="0" expand="true" cost-manual-value="460000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1
+Costo MO: 460.000 | Materiales: 0 | Total: 460.000
+Predecesoras: 8.6 SS+2, 8.4 FS
+Holgura total: 25 | Holgura libre: 24]]></notes>
+                    <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC"/>
+                    <customproperty taskproperty-id="tpc3" value="460.000"/>
+                    <customproperty taskproperty-id="tpc5" value="460.000"/>
+                    <customproperty taskproperty-id="tpc6" value="25"/>
+                </task>
+                <task id="77" name="8.8 Llaves, tomas y artefactos de iluminación" color="#80cbc4" meeting="false" start="2027-03-12" duration="3" complete="0" expand="true" cost-manual-value="1080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 85 un | Rendimiento: 30 un/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Electricista x1, Ayudante x1
+Costo MO: 1.080.000 | Materiales: 0 | Total: 1.080.000
+Predecesoras: 14.5 FS, 8.6 FS
+Holgura total: 1 | Holgura libre: 0]]></notes>
+                    <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="85 un"/>
+                    <customproperty taskproperty-id="tpc1" value="30 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="1"/>
+                </task>
+                <task id="78" name="8.9 Puesta a tierra, mediciones y pruebas" color="#80cbc4" meeting="false" start="2027-03-16" duration="1" complete="0" expand="true" cost-manual-value="230000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1
+Costo MO: 230.000 | Materiales: 0 | Total: 230.000
+Predecesoras: 8.7 FS, 8.8 FS
+Holgura total: 1 | Holgura libre: 1]]></notes>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC"/>
+                    <customproperty taskproperty-id="tpc3" value="230.000"/>
+                    <customproperty taskproperty-id="tpc5" value="230.000"/>
+                    <customproperty taskproperty-id="tpc6" value="1"/>
+                </task>
+            </task>
+            <task id="79" name="9 Revoques" meeting="false" start="2026-12-23" duration="42" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="31.350.000"/>
+                <customproperty taskproperty-id="tpc5" value="31.350.000"/>
+                <task id="80" name="9.1 Revoque interior PB (grueso y fino)" color="#fff59d" meeting="false" start="2027-01-08" duration="10" complete="0" thirdDate="2027-01-08" thirdDate-constraint="1" expand="true" cost-manual-value="9900000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 380 m2 | Rendimiento: 14 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 10 días hábiles
+Recursos: Oficial albañil x3, Ayudante x3
+Costo MO: 9.900.000 | Materiales: 0 | Total: 9.900.000
+Predecesoras: 8.2 FS, 7.3 FS, 4.11 FS
+Holgura total: 12 | Holgura libre: 0
+Retrasada por nivelación de recursos (9 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="86" type="2" difference="0" hardness="Strong"/>
+                    <depend id="109" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="380 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="14 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 OF + 3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="9.900.000"/>
+                    <customproperty taskproperty-id="tpc5" value="9.900.000"/>
+                    <customproperty taskproperty-id="tpc6" value="12"/>
+                </task>
+                <task id="81" name="9.2 Revoque interior PA (grueso y fino)" color="#fff59d" meeting="false" start="2027-01-26" duration="8" complete="0" expand="true" cost-manual-value="7920000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 330 m2 | Rendimiento: 14 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 8 días hábiles
+Recursos: Oficial albañil x3, Ayudante x3
+Costo MO: 7.920.000 | Materiales: 0 | Total: 7.920.000
+Predecesoras: 8.3 FS, 7.4 FS, 6.7 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    <depend id="87" type="2" difference="0" hardness="Strong"/>
+                    <depend id="99" type="2" difference="0" hardness="Strong"/>
+                    <depend id="102" type="2" difference="0" hardness="Strong"/>
+                    <depend id="109" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="330 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="14 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 OF + 3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="7.920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="7.920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="82" name="9.3 Revoque de cielorraso bajo losa (PB)" color="#fff59d" meeting="false" start="2027-01-20" duration="4" complete="0" thirdDate="2027-01-20" thirdDate-constraint="1" expand="true" cost-manual-value="2640000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 80 m2 | Rendimiento: 10 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Oficial albañil x2, Ayudante x2
+Costo MO: 2.640.000 | Materiales: 0 | Total: 2.640.000
+Predecesoras: 4.11 FS, 8.1 FS
+Holgura total: 23 | Holgura libre: 16
+Retrasada por nivelación de recursos (19 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="109" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="80 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="10 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.640.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.640.000"/>
+                    <customproperty taskproperty-id="tpc6" value="23"/>
+                </task>
+                <task id="83" name="9.4 Revoque exterior con andamios" color="#fff59d" meeting="false" start="2027-02-04" duration="14" complete="0" thirdDate="2027-02-04" thirdDate-constraint="1" expand="true" cost-manual-value="9240000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 280 m2 | Rendimiento: 10 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 14 días hábiles
+Recursos: Oficial albañil x2, Ayudante x2
+Costo MO: 9.240.000 | Materiales: 0 | Total: 9.240.000
+Predecesoras: 6.7 FS
+Holgura total: 10 | Holgura libre: 0
+Retrasada por nivelación de recursos (8 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="89" type="2" difference="0" hardness="Strong"/>
+                    <depend id="102" type="2" difference="0" hardness="Strong"/>
+                    <depend id="111" type="2" difference="7" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="280 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="10 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="9.240.000"/>
+                    <customproperty taskproperty-id="tpc5" value="9.240.000"/>
+                    <customproperty taskproperty-id="tpc6" value="10"/>
+                </task>
+                <task id="84" name="9.5 Revoque impermeable en baños y cocina" color="#fff59d" meeting="false" start="2026-12-23" duration="5" complete="0" expand="true" cost-manual-value="1650000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 60 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 5 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 1.650.000 | Materiales: 0 | Total: 1.650.000
+Predecesoras: 7.5 FS
+Holgura total: 12 | Holgura libre: 0]]></notes>
+                    <depend id="93" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="60 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.650.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.650.000"/>
+                    <customproperty taskproperty-id="tpc6" value="12"/>
+                </task>
+            </task>
+            <task id="85" name="10 Contrapisos y carpetas" meeting="false" start="2027-01-20" duration="29" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="6.120.000"/>
+                <customproperty taskproperty-id="tpc5" value="6.120.000"/>
+                <task id="86" name="10.1 Contrapiso de cascotes PB" color="#b0bec5" meeting="false" start="2027-01-20" duration="4" complete="0" expand="true" cost-manual-value="1840000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 85 m2 | Rendimiento: 25 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Oficial albañil x1, Ayudante x2
+Costo MO: 1.840.000 | Materiales: 0 | Total: 1.840.000
+Predecesoras: 3.9 FS, 7.1 FS, 9.1 FS
+Holgura total: 12 | Holgura libre: 12]]></notes>
+                    <depend id="88" type="2" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="85 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="25 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.840.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.840.000"/>
+                    <customproperty taskproperty-id="tpc6" value="12"/>
+                </task>
+                <task id="87" name="10.2 Contrapiso sobre losa PA" color="#b0bec5" meeting="false" start="2027-02-04" duration="3" complete="0" expand="true" cost-manual-value="1380000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 75 m2 | Rendimiento: 25 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Oficial albañil x1, Ayudante x2
+Costo MO: 1.380.000 | Materiales: 0 | Total: 1.380.000
+Predecesoras: 9.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="88" type="2" difference="2" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="75 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="25 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.380.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.380.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="88" name="10.3 Carpeta de nivelación PB y PA" color="#b0bec5" meeting="false" start="2027-02-10" duration="6" complete="0" expand="true" cost-manual-value="1980000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 160 m2 | Rendimiento: 30 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 6 días hábiles
+Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 1.980.000 | Materiales: 0 | Total: 1.980.000
+Predecesoras: 10.1 FS+2, 10.2 FS+2
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="91" type="2" difference="3" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="160 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="30 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.980.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.980.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="89" name="10.4 Contrapiso exterior (galería y veredas)" color="#b0bec5" meeting="false" start="2027-02-20" duration="2" complete="0" expand="true" cost-manual-value="920000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 45 m2 | Rendimiento: 25 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Oficial albañil x1, Ayudante x2
+Costo MO: 920.000 | Materiales: 0 | Total: 920.000
+Predecesoras: 9.4 FS
+Holgura total: 13 | Holgura libre: 0]]></notes>
+                    <depend id="96" type="2" difference="3" hardness="Strong"/>
+                    <depend id="116" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="45 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="25 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="13"/>
+                </task>
+            </task>
+            <task id="90" name="11 Pisos y revestimientos" meeting="false" start="2027-02-20" duration="14" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="11.930.000"/>
+                <customproperty taskproperty-id="tpc5" value="11.930.000"/>
+                <task id="91" name="11.1 Piso porcelanato PB" color="#ffab91" meeting="false" start="2027-02-20" duration="4" complete="0" expand="true" cost-manual-value="2800000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 85 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Colocador de pisos y revestimientos x2, Ayudante x2
+Costo MO: 2.800.000 | Materiales: 0 | Total: 2.800.000
+Predecesoras: 10.3 FS+3
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="92" type="2" difference="0" hardness="Strong"/>
+                    <depend id="94" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="85 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 COL + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="92" name="11.2 Piso porcelanato PA" color="#ffab91" meeting="false" start="2027-02-25" duration="4" complete="0" expand="true" cost-manual-value="2800000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 75 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Colocador de pisos y revestimientos x2, Ayudante x2
+Costo MO: 2.800.000 | Materiales: 0 | Total: 2.800.000
+Predecesoras: 11.1 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="93" type="2" difference="0" hardness="Strong"/>
+                    <depend id="95" type="2" difference="0" hardness="Strong"/>
+                    <depend id="104" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="75 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 COL + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="93" name="11.3 Revestimiento cerámico de baños y cocina" color="#ffab91" meeting="false" start="2027-03-03" duration="5" complete="0" expand="true" cost-manual-value="2850000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 70 m2 | Rendimiento: 8 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 5 días hábiles
+Recursos: Colocador de pisos y revestimientos x2, Ayudante x1
+Costo MO: 2.850.000 | Materiales: 0 | Total: 2.850.000
+Predecesoras: 9.5 FS, 11.2 FS
+Holgura total: 2 | Holgura libre: 0]]></notes>
+                    <depend id="67" type="2" difference="0" hardness="Strong"/>
+                    <depend id="97" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="70 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="8 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 COL + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.850.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.850.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="94" name="11.4 Revestimiento de escalera" color="#ffab91" meeting="false" start="2027-02-25" duration="2" complete="0" expand="true" cost-manual-value="700000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Colocador de pisos y revestimientos x1, Ayudante x1
+Costo MO: 700.000 | Materiales: 0 | Total: 700.000
+Predecesoras: 11.1 FS
+Holgura total: 9 | Holgura libre: 0]]></notes>
+                    <depend id="105" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 COL + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="700.000"/>
+                    <customproperty taskproperty-id="tpc5" value="700.000"/>
+                    <customproperty taskproperty-id="tpc6" value="9"/>
+                </task>
+                <task id="95" name="11.5 Zócalos" color="#ffab91" meeting="false" start="2027-03-03" duration="4" complete="0" expand="true" cost-manual-value="1400000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 160 ml | Rendimiento: 40 ml/día por cuadrilla | Cuadrillas: 1 | Duración: 4 días hábiles
+Recursos: Colocador de pisos y revestimientos x1, Ayudante x1
+Costo MO: 1.400.000 | Materiales: 0 | Total: 1.400.000
+Predecesoras: 11.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="113" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="160 ml"/>
+                    <customproperty taskproperty-id="tpc1" value="40 ml/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 COL + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.400.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.400.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="96" name="11.6 Pisos exteriores (galería y vereda perimetral)" color="#ffab91" meeting="false" start="2027-02-26" duration="3" complete="0" expand="true" cost-manual-value="1050000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 45 m2 | Rendimiento: 15 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Colocador de pisos y revestimientos x1, Ayudante x1
+Costo MO: 1.050.000 | Materiales: 0 | Total: 1.050.000
+Predecesoras: 10.4 FS+3
+Holgura total: 13 | Holgura libre: 3]]></notes>
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="45 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 COL + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.050.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.050.000"/>
+                    <customproperty taskproperty-id="tpc6" value="13"/>
+                </task>
+                <task id="97" name="11.7 Mesada de cocina y lavadero" color="#ffab91" meeting="false" start="2027-03-09" duration="1" complete="0" expand="true" cost-manual-value="330000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Oficial albañil x1, Ayudante x1
+Costo MO: 330.000 | Materiales: 0 | Total: 330.000
+Predecesoras: 11.3 FS
+Holgura total: 2 | Holgura libre: 0]]></notes>
+                    <depend id="106" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="330.000"/>
+                    <customproperty taskproperty-id="tpc5" value="330.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+            </task>
+            <task id="98" name="12 Cielorrasos" meeting="false" start="2027-02-04" duration="7" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="2.120.000"/>
+                <customproperty taskproperty-id="tpc5" value="2.120.000"/>
+                <task id="99" name="12.1 Cielorraso suspendido de placas de yeso PA" color="#c5e1a5" meeting="false" start="2027-02-04" duration="5" complete="0" expand="true" cost-manual-value="1700000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 75 m2 | Rendimiento: 15 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 5 días hábiles
+Recursos: Yesero / cielorrasista x1, Ayudante x1
+Costo MO: 1.700.000 | Materiales: 0 | Total: 1.700.000
+Predecesoras: 6.3 FS, 8.3 FS, 9.2 FS
+Holgura total: 7 | Holgura libre: 0]]></notes>
+                    <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    <depend id="100" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="75 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 YES + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.700.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.700.000"/>
+                    <customproperty taskproperty-id="tpc6" value="7"/>
+                </task>
+                <task id="100" name="12.2 Masillado y encintado de juntas" color="#c5e1a5" meeting="false" start="2027-02-10" duration="2" complete="0" expand="true" cost-manual-value="420000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 75 m2 | Rendimiento: 40 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Yesero / cielorrasista x1
+Costo MO: 420.000 | Materiales: 0 | Total: 420.000
+Predecesoras: 12.1 FS
+Holgura total: 7 | Holgura libre: 0]]></notes>
+                    <depend id="109" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="75 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="40 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 YES"/>
+                    <customproperty taskproperty-id="tpc3" value="420.000"/>
+                    <customproperty taskproperty-id="tpc5" value="420.000"/>
+                    <customproperty taskproperty-id="tpc6" value="7"/>
+                </task>
+            </task>
+            <task id="101" name="13 Carpintería, herrería y vidrios" meeting="false" start="2027-02-20" duration="19" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="6.450.000"/>
+                <customproperty taskproperty-id="tpc5" value="6.450.000"/>
+                <task id="102" name="13.1 Ventanas y puertas exteriores (aluminio)" color="#8cb6ce" meeting="false" start="2027-02-20" duration="3" complete="0" expand="true" cost-manual-value="1080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 14 un | Rendimiento: 5 un/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Herrero / aberturista x1, Ayudante x1
+Costo MO: 1.080.000 | Materiales: 0 | Total: 1.080.000
+Predecesoras: 9.4 FS, 9.2 FS
+Holgura total: 14 | Holgura libre: 0]]></notes>
+                    <depend id="103" type="2" difference="0" hardness="Strong"/>
+                    <depend id="111" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="14 un"/>
+                    <customproperty taskproperty-id="tpc1" value="5 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 HERR + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="14"/>
+                </task>
+                <task id="103" name="13.2 Vidrios" color="#8cb6ce" meeting="false" start="2027-02-24" duration="3" complete="0" expand="true" cost-manual-value="690000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 30 m2 | Rendimiento: 12 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Herrero / aberturista x1
+Costo MO: 690.000 | Materiales: 0 | Total: 690.000
+Predecesoras: 13.1 FS
+Holgura total: 15 | Holgura libre: 15]]></notes>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="30 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="12 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 HERR"/>
+                    <customproperty taskproperty-id="tpc3" value="690.000"/>
+                    <customproperty taskproperty-id="tpc5" value="690.000"/>
+                    <customproperty taskproperty-id="tpc6" value="15"/>
+                </task>
+                <task id="104" name="13.3 Hojas de puertas interiores y herrajes" color="#8cb6ce" meeting="false" start="2027-03-03" duration="3" complete="0" expand="true" cost-manual-value="1080000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 10 un | Rendimiento: 4 un/día por cuadrilla | Cuadrillas: 1 | Duración: 3 días hábiles
+Recursos: Carpintero ebanista x1, Ayudante x1
+Costo MO: 1.080.000 | Materiales: 0 | Total: 1.080.000
+Predecesoras: 11.2 FS, 14.2 FS
+Holgura total: 1 | Holgura libre: 0]]></notes>
+                    <depend id="112" type="2" difference="0" hardness="Strong"/>
+                    <depend id="113" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="10 un"/>
+                    <customproperty taskproperty-id="tpc1" value="4 un/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 EBAN + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="1"/>
+                </task>
+                <task id="105" name="13.4 Baranda de escalera y rejas" color="#8cb6ce" meeting="false" start="2027-02-27" duration="3" complete="0" expand="true" cost-manual-value="1080000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Herrero / aberturista x1, Ayudante x1
+Costo MO: 1.080.000 | Materiales: 0 | Total: 1.080.000
+Predecesoras: 11.4 FS
+Holgura total: 9 | Holgura libre: 2]]></notes>
+                    <depend id="112" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 HERR + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.080.000"/>
+                    <customproperty taskproperty-id="tpc6" value="9"/>
+                </task>
+                <task id="106" name="13.5 Placares y muebles de cocina" color="#8cb6ce" meeting="false" start="2027-03-10" duration="5" complete="0" expand="true" cost-manual-value="1800000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Carpintero ebanista x1, Ayudante x1
+Costo MO: 1.800.000 | Materiales: 0 | Total: 1.800.000
+Predecesoras: 11.7 FS, 14.2 FS
+Holgura total: 2 | Holgura libre: 2]]></notes>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 EBAN + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="107" name="13.6 Portón vehicular" color="#8cb6ce" meeting="false" start="2027-02-25" duration="2" complete="0" expand="true" cost-manual-value="720000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Herrero / aberturista x1, Ayudante x1
+Costo MO: 720.000 | Materiales: 0 | Total: 720.000
+Predecesoras: 15.2 FS
+Holgura total: 17 | Holgura libre: 17]]></notes>
+                    <depend id="121" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 HERR + 1 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="720.000"/>
+                    <customproperty taskproperty-id="tpc5" value="720.000"/>
+                    <customproperty taskproperty-id="tpc6" value="17"/>
+                </task>
+            </task>
+            <task id="108" name="14 Pintura" meeting="false" start="2027-02-12" duration="23" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="9.500.000"/>
+                <customproperty taskproperty-id="tpc5" value="9.500.000"/>
+                <task id="109" name="14.1 Enduido y lijado interior (muros y cielorrasos)" color="#a5d6a7" meeting="false" start="2027-02-12" duration="5" complete="0" expand="true" cost-manual-value="2850000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 865 m2 | Rendimiento: 60 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 5 días hábiles
+Recursos: Pintor x3
+Costo MO: 2.850.000 | Materiales: 0 | Total: 2.850.000
+Predecesoras: 9.1 FS, 9.2 FS, 9.3 FS, 12.2 FS
+Holgura total: 7 | Holgura libre: 0]]></notes>
+                    <depend id="110" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="865 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="60 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="2.850.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.850.000"/>
+                    <customproperty taskproperty-id="tpc6" value="7"/>
+                </task>
+                <task id="110" name="14.2 Pintura interior: fondo y primera mano" color="#a5d6a7" meeting="false" start="2027-02-18" duration="4" complete="0" expand="true" cost-manual-value="2280000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 865 m2 | Rendimiento: 80 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 4 días hábiles
+Recursos: Pintor x3
+Costo MO: 2.280.000 | Materiales: 0 | Total: 2.280.000
+Predecesoras: 14.1 FS
+Holgura total: 7 | Holgura libre: 6]]></notes>
+                    <depend id="104" type="2" difference="0" hardness="Strong"/>
+                    <depend id="106" type="2" difference="0" hardness="Strong"/>
+                    <depend id="113" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="865 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="80 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="2.280.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.280.000"/>
+                    <customproperty taskproperty-id="tpc6" value="7"/>
+                </task>
+                <task id="111" name="14.3 Pintura exterior (fijador + 2 manos)" color="#a5d6a7" meeting="false" start="2027-03-02" duration="4" complete="0" expand="true" cost-manual-value="1520000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 560 m2 | Rendimiento: 70 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Pintor x2
+Costo MO: 1.520.000 | Materiales: 0 | Total: 1.520.000
+Predecesoras: 9.4 FS+7, 13.1 FS
+Holgura total: 10 | Holgura libre: 0]]></notes>
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="560 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="70 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="1.520.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.520.000"/>
+                    <customproperty taskproperty-id="tpc6" value="10"/>
+                </task>
+                <task id="112" name="14.4 Pintura de aberturas, herrería y maderas" color="#a5d6a7" meeting="false" start="2027-03-06" duration="3" complete="0" expand="true" cost-manual-value="570000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Pintor x1
+Costo MO: 570.000 | Materiales: 0 | Total: 570.000
+Predecesoras: 13.3 FS, 13.4 FS
+Holgura total: 7 | Holgura libre: 7]]></notes>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="570.000"/>
+                    <customproperty taskproperty-id="tpc5" value="570.000"/>
+                    <customproperty taskproperty-id="tpc6" value="7"/>
+                </task>
+                <task id="113" name="14.5 Pintura interior: mano final" color="#a5d6a7" meeting="false" start="2027-03-08" duration="4" complete="0" expand="true" cost-manual-value="2280000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 865 m2 | Rendimiento: 80 m2/día por cuadrilla | Cuadrillas: 3 | Duración: 4 días hábiles
+Recursos: Pintor x3
+Costo MO: 2.280.000 | Materiales: 0 | Total: 2.280.000
+Predecesoras: 14.2 FS, 13.3 FS, 11.5 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="67" type="2" difference="0" hardness="Strong"/>
+                    <depend id="77" type="2" difference="0" hardness="Strong"/>
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="865 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="80 m2/día x 3"/>
+                    <customproperty taskproperty-id="tpc2" value="3 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="2.280.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.280.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="114" name="15 Obras exteriores" meeting="false" start="2026-11-23" duration="87" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="4.310.000"/>
+                <customproperty taskproperty-id="tpc5" value="4.310.000"/>
+                <task id="115" name="15.1 Muro perimetral definitivo" color="#ffcc80" meeting="false" start="2026-11-23" duration="4" complete="0" thirdDate="2026-11-23" thirdDate-constraint="1" expand="true" cost-manual-value="2640000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 70 m2 | Rendimiento: 9 m2/día por cuadrilla | Cuadrillas: 2 | Duración: 4 días hábiles
+Recursos: Oficial albañil x2, Ayudante x2
+Costo MO: 2.640.000 | Materiales: 0 | Total: 2.640.000
+Predecesoras: 3.10 FS
+Holgura total: 82 | Holgura libre: 65
+Retrasada por nivelación de recursos (20 días hábiles respecto del CPM sin límites).]]></notes>
+                    <depend id="116" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="70 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="9 m2/día x 2"/>
+                    <customproperty taskproperty-id="tpc2" value="2 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="2.640.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.640.000"/>
+                    <customproperty taskproperty-id="tpc6" value="82"/>
+                </task>
+                <task id="116" name="15.2 Entrada vehicular y caminero" color="#ffcc80" meeting="false" start="2027-02-23" duration="2" complete="0" expand="true" cost-manual-value="920000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 30 m2 | Rendimiento: 15 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Oficial albañil x1, Ayudante x2
+Costo MO: 920.000 | Materiales: 0 | Total: 920.000
+Predecesoras: 10.4 FS, 15.1 FS
+Holgura total: 17 | Holgura libre: 0]]></notes>
+                    <depend id="107" type="2" difference="0" hardness="Strong"/>
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="30 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="15 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="17"/>
+                </task>
+                <task id="117" name="15.3 Iluminación exterior" color="#ffcc80" meeting="false" start="2027-03-16" duration="1" complete="0" expand="true" cost-manual-value="230000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Electricista x1
+Costo MO: 230.000 | Materiales: 0 | Total: 230.000
+Predecesoras: 8.8 FS, 14.3 FS
+Holgura total: 3 | Holgura libre: 3]]></notes>
+                    <depend id="121" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 ELEC"/>
+                    <customproperty taskproperty-id="tpc3" value="230.000"/>
+                    <customproperty taskproperty-id="tpc5" value="230.000"/>
+                    <customproperty taskproperty-id="tpc6" value="3"/>
+                </task>
+                <task id="118" name="15.4 Parquizado y empastado" color="#ffcc80" meeting="false" start="2027-03-06" duration="2" complete="0" expand="true" cost-manual-value="520000" cost-calculated="false">
+                    <notes><![CDATA[Cómputo: 120 m2 | Rendimiento: 60 m2/día por cuadrilla | Cuadrillas: 1 | Duración: 2 días hábiles
+Recursos: Ayudante x2
+Costo MO: 520.000 | Materiales: 0 | Total: 520.000
+Predecesoras: 15.2 FS, 14.3 FS, 11.6 FS, 7.7 FS
+Holgura total: 10 | Holgura libre: 10]]></notes>
+                    <depend id="121" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc0" value="120 m2"/>
+                    <customproperty taskproperty-id="tpc1" value="60 m2/día x 1"/>
+                    <customproperty taskproperty-id="tpc2" value="2 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="520.000"/>
+                    <customproperty taskproperty-id="tpc5" value="520.000"/>
+                    <customproperty taskproperty-id="tpc6" value="10"/>
+                </task>
+            </task>
+            <task id="119" name="16 Pruebas, limpieza y entrega" meeting="false" start="2027-03-18" duration="8" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="8.840.000"/>
+                <customproperty taskproperty-id="tpc5" value="8.840.000"/>
+                <task id="120" name="16.1 Limpieza gruesa y retiro de escombros" color="#ce93d8" meeting="false" start="2027-03-18" duration="2" complete="0" expand="true" cost-manual-value="2180000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x3, Camión volcador (con chofer) x1
+Costo MO: 2.180.000 | Materiales: 0 | Total: 2.180.000
+Predecesoras: 14.5 FS, 14.4 FS, 7.9 FS, 8.9 FS, 13.5 FS, 13.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="121" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="3 AY + 1 CAM"/>
+                    <customproperty taskproperty-id="tpc3" value="2.180.000"/>
+                    <customproperty taskproperty-id="tpc5" value="2.180.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="121" name="16.2 Inspección final y lista de observaciones" color="#ce93d8" meeting="false" start="2027-03-20" duration="1" complete="0" expand="true" cost-manual-value="600000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Director de obra (Arq./Ing.) x1
+Costo MO: 600.000 | Materiales: 0 | Total: 600.000
+Predecesoras: 16.1 FS, 15.3 FS, 15.4 FS, 13.6 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="122" type="2" difference="0" hardness="Strong"/>
+                    <depend id="124" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 DIR"/>
+                    <customproperty taskproperty-id="tpc3" value="600.000"/>
+                    <customproperty taskproperty-id="tpc5" value="600.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="122" name="16.3 Corrección de observaciones" color="#ce93d8" meeting="false" start="2027-03-22" duration="3" complete="0" expand="true" cost-manual-value="1560000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Oficial albañil x1, Ayudante x1, Pintor x1
+Costo MO: 1.560.000 | Materiales: 0 | Total: 1.560.000
+Predecesoras: 16.2 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="123" type="2" difference="0" hardness="Strong"/>
+                    <depend id="125" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 OF + 1 AY + 1 PINT"/>
+                    <customproperty taskproperty-id="tpc3" value="1.560.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.560.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="123" name="16.4 Limpieza final fina" color="#ce93d8" meeting="false" start="2027-03-27" duration="2" complete="0" expand="true" cost-manual-value="780000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x3
+Costo MO: 780.000 | Materiales: 0 | Total: 780.000
+Predecesoras: 16.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="126" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="3 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="780.000"/>
+                    <customproperty taskproperty-id="tpc5" value="780.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="124" name="16.5 Planos conforme a obra y manual de uso" color="#ce93d8" meeting="false" start="2027-03-22" duration="3" complete="0" expand="true" cost-manual-value="1800000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Director de obra (Arq./Ing.) x1
+Costo MO: 1.800.000 | Materiales: 0 | Total: 1.800.000
+Predecesoras: 16.2 FS
+Holgura total: 2 | Holgura libre: 2]]></notes>
+                    <depend id="126" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="1 DIR"/>
+                    <customproperty taskproperty-id="tpc3" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.800.000"/>
+                    <customproperty taskproperty-id="tpc6" value="2"/>
+                </task>
+                <task id="125" name="16.6 Desmontaje de obrador" color="#ce93d8" meeting="false" start="2027-03-27" duration="2" complete="0" expand="true" cost-manual-value="1920000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x2, Camión volcador (con chofer) x1
+Costo MO: 1.920.000 | Materiales: 0 | Total: 1.920.000
+Predecesoras: 16.3 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <depend id="126" type="2" difference="0" hardness="Strong"/>
+                    <customproperty taskproperty-id="tpc2" value="2 AY + 1 CAM"/>
+                    <customproperty taskproperty-id="tpc3" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc5" value="1.920.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+                <task id="126" name="16.7 Recepción provisoria / entrega de obra" color="#ce93d8" meeting="true" start="2027-03-30" duration="0" complete="0" expand="true">
+                    <notes><![CDATA[Predecesoras: 16.4 FS, 16.5 FS, 16.6 FS
+Holgura total: 0 | Holgura libre: 0 | TAREA CRÍTICA]]></notes>
+                    <customproperty taskproperty-id="tpc6" value="0 ●"/>
+                </task>
+            </task>
+            <task id="127" name="17 Dirección y servicios de obra (permanentes)" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true">
+                <customproperty taskproperty-id="tpc3" value="91.355.000"/>
+                <customproperty taskproperty-id="tpc5" value="91.355.000"/>
+                <task id="128" name="17.1 Conducción y supervisión de obra" color="#cfd8dc" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true" cost-manual-value="45300000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Encargado de obra x1
+Costo MO: 45.300.000 | Materiales: 0 | Total: 45.300.000
+Tarea permanente: abarca toda la duración de la obra.]]></notes>
+                    <customproperty taskproperty-id="tpc2" value="1 ENC"/>
+                    <customproperty taskproperty-id="tpc3" value="45.300.000"/>
+                    <customproperty taskproperty-id="tpc5" value="45.300.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0"/>
+                </task>
+                <task id="129" name="17.2 Dirección técnica (visitas, libro de obra)" color="#cfd8dc" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true" cost-manual-value="18120000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Director de obra (Arq./Ing.) x0.2
+Costo MO: 18.120.000 | Materiales: 0 | Total: 18.120.000
+Tarea permanente: abarca toda la duración de la obra.]]></notes>
+                    <customproperty taskproperty-id="tpc2" value="0.2 DIR"/>
+                    <customproperty taskproperty-id="tpc3" value="18.120.000"/>
+                    <customproperty taskproperty-id="tpc5" value="18.120.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0"/>
+                </task>
+                <task id="130" name="17.3 Vigilancia nocturna" color="#cfd8dc" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true" cost-manual-value="18120000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Sereno x1
+Costo MO: 18.120.000 | Materiales: 0 | Total: 18.120.000
+Tarea permanente: abarca toda la duración de la obra.]]></notes>
+                    <customproperty taskproperty-id="tpc2" value="1 SER"/>
+                    <customproperty taskproperty-id="tpc3" value="18.120.000"/>
+                    <customproperty taskproperty-id="tpc5" value="18.120.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0"/>
+                </task>
+                <task id="131" name="17.4 Limpieza periódica y seguridad e higiene" color="#cfd8dc" meeting="false" start="2026-09-18" duration="151" complete="0" expand="true" cost-manual-value="9815000" cost-calculated="false">
+                    <notes><![CDATA[Recursos: Ayudante x0.5
+Costo MO: 9.815.000 | Materiales: 0 | Total: 9.815.000
+Tarea permanente: abarca toda la duración de la obra.]]></notes>
+                    <customproperty taskproperty-id="tpc2" value="0.5 AY"/>
+                    <customproperty taskproperty-id="tpc3" value="9.815.000"/>
+                    <customproperty taskproperty-id="tpc5" value="9.815.000"/>
+                    <customproperty taskproperty-id="tpc6" value="0"/>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Director de obra (Arq./Ing.) 1" function="1" contacts="" phone="">
+            <rate name="standard" value="600000"/>
+        </resource>
+        <resource id="1" name="Director de obra (Arq./Ing.) 2" function="1" contacts="" phone="">
+            <rate name="standard" value="600000"/>
+        </resource>
+        <resource id="2" name="Encargado de obra 1" function="1" contacts="" phone="">
+            <rate name="standard" value="300000"/>
+        </resource>
+        <resource id="3" name="Sereno 1" function="2" contacts="" phone="">
+            <rate name="standard" value="120000"/>
+        </resource>
+        <resource id="4" name="Topógrafo 1" function="2" contacts="" phone="">
+            <rate name="standard" value="500000"/>
+        </resource>
+        <resource id="5" name="Oficial albañil 1" function="3" contacts="" phone="">
+            <rate name="standard" value="200000"/>
+        </resource>
+        <resource id="6" name="Oficial albañil 2" function="3" contacts="" phone="">
+            <rate name="standard" value="200000"/>
+        </resource>
+        <resource id="7" name="Oficial albañil 3" function="3" contacts="" phone="">
+            <rate name="standard" value="200000"/>
+        </resource>
+        <resource id="8" name="Oficial albañil 4" function="3" contacts="" phone="">
+            <rate name="standard" value="200000"/>
+        </resource>
+        <resource id="9" name="Ayudante 1" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="10" name="Ayudante 2" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="11" name="Ayudante 3" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="12" name="Ayudante 4" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="13" name="Ayudante 5" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="14" name="Ayudante 6" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="15" name="Ayudante 7" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="16" name="Ayudante 8" function="3" contacts="" phone="">
+            <rate name="standard" value="130000"/>
+        </resource>
+        <resource id="17" name="Armador 1" function="4" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="18" name="Armador 2" function="4" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="19" name="Carpintero encofrador 1" function="4" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="20" name="Carpintero encofrador 2" function="4" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="21" name="Techista 1" function="5" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="22" name="Techista 2" function="5" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="23" name="Plomero sanitarista 1" function="6" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="24" name="Electricista 1" function="6" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="25" name="Electricista 2" function="6" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="26" name="Colocador de pisos y revestimientos 1" function="7" contacts="" phone="">
+            <rate name="standard" value="220000"/>
+        </resource>
+        <resource id="27" name="Colocador de pisos y revestimientos 2" function="7" contacts="" phone="">
+            <rate name="standard" value="220000"/>
+        </resource>
+        <resource id="28" name="Colocador de pisos y revestimientos 3" function="7" contacts="" phone="">
+            <rate name="standard" value="220000"/>
+        </resource>
+        <resource id="29" name="Colocador de pisos y revestimientos 4" function="7" contacts="" phone="">
+            <rate name="standard" value="220000"/>
+        </resource>
+        <resource id="30" name="Yesero / cielorrasista 1" function="7" contacts="" phone="">
+            <rate name="standard" value="210000"/>
+        </resource>
+        <resource id="31" name="Pintor 1" function="7" contacts="" phone="">
+            <rate name="standard" value="190000"/>
+        </resource>
+        <resource id="32" name="Pintor 2" function="7" contacts="" phone="">
+            <rate name="standard" value="190000"/>
+        </resource>
+        <resource id="33" name="Pintor 3" function="7" contacts="" phone="">
+            <rate name="standard" value="190000"/>
+        </resource>
+        <resource id="34" name="Pintor 4" function="7" contacts="" phone="">
+            <rate name="standard" value="190000"/>
+        </resource>
+        <resource id="35" name="Herrero / aberturista 1" function="8" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="36" name="Herrero / aberturista 2" function="8" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="37" name="Carpintero ebanista 1" function="8" contacts="" phone="">
+            <rate name="standard" value="230000"/>
+        </resource>
+        <resource id="38" name="Retroexcavadora (con operador) 1" function="9" contacts="" phone="">
+            <rate name="standard" value="1200000"/>
+        </resource>
+        <resource id="39" name="Camión volcador (con chofer) 1" function="9" contacts="" phone="">
+            <rate name="standard" value="700000"/>
+        </resource>
+        <resource id="40" name="Hormigonera 350 L 1" function="9" contacts="" phone="">
+            <rate name="standard" value="80000"/>
+        </resource>
+        <resource id="41" name="Vibrador de inmersión 1" function="9" contacts="" phone="">
+            <rate name="standard" value="60000"/>
+        </resource>
+        <resource id="42" name="Compactadora (pisón) 1" function="9" contacts="" phone="">
+            <rate name="standard" value="90000"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="128" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="129" resource-id="0" function="1" responsible="true" load="20.0"/>
+        <allocation task-id="130" resource-id="3" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="131" resource-id="9" function="3" responsible="true" load="50.0"/>
+        <allocation task-id="4" resource-id="10" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="19" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="24" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="10" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="11" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="39" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="38" function="9" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="12" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="39" function="9" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="11" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="42" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="6" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="16" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="41" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="19" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="20" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="19" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="20" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="41" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="11" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="42" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="16" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="19" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="20" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="62" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="71" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="73" resource-id="25" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="41" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="115" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="115" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="115" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="115" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="9" function="3" responsible="true" load="50.0"/>
+        <allocation task-id="37" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="19" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="20" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="41" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="19" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="8" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="17" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="18" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="19" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="20" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="40" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="41" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="72" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="72" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="19" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="6" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="21" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="22" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="65" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="21" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="22" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="21" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="21" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="22" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="86" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="86" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="86" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="6" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="82" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="35" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="16" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="56" resource-id="21" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="99" resource-id="30" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="6" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="7" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="30" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="31" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="32" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="109" resource-id="33" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="25" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="110" resource-id="31" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="110" resource-id="32" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="110" resource-id="33" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="89" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="89" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="26" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="27" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="35" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="102" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="103" resource-id="35" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="26" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="27" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="94" resource-id="28" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="107" resource-id="36" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="96" resource-id="29" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="96" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="105" resource-id="35" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="105" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="111" resource-id="31" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="32" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="26" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="93" resource-id="27" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="95" resource-id="28" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="104" resource-id="37" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="112" resource-id="31" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="12" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="113" resource-id="32" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="33" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="113" resource-id="34" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="97" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="106" resource-id="37" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="67" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="117" resource-id="24" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="78" resource-id="25" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="23" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="10" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="120" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="120" resource-id="39" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="121" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="10" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="122" resource-id="31" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="124" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="10" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="11" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="123" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="125" resource-id="13" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="14" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="125" resource-id="39" function="9" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="290" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="80" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="80" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="55" visible="true"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="4" width="80" visible="true"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpc0" order="5" width="80" visible="true"/>
+        <displaycolumn property-id="tpc1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpc2" order="6" width="130" visible="true"/>
+        <displaycolumn property-id="tpc3" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpc4" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpc5" order="7" width="95" visible="true"/>
+        <displaycolumn property-id="tpc6" order="8" width="70" visible="true"/>
+    </taskdisplaycolumns>
+    <previous>
+        <previous-tasks name="Línea base - plan original">
+            <previous-task id="1" start="2026-09-18" duration="151" meeting="false" super="true"/>
+            <previous-task id="2" start="2026-09-18" duration="7" meeting="false" super="true"/>
+            <previous-task id="3" start="2026-09-18" duration="0" meeting="true" super="false"/>
+            <previous-task id="4" start="2026-09-18" duration="3" meeting="false" super="false"/>
+            <previous-task id="5" start="2026-09-19" duration="4" meeting="false" super="false"/>
+            <previous-task id="6" start="2026-09-19" duration="3" meeting="false" super="false"/>
+            <previous-task id="7" start="2026-09-21" duration="2" meeting="false" super="false"/>
+            <previous-task id="8" start="2026-09-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="9" start="2026-09-22" duration="2" meeting="false" super="false"/>
+            <previous-task id="10" start="2026-09-24" duration="2" meeting="false" super="false"/>
+            <previous-task id="11" start="2026-09-26" duration="0" meeting="true" super="false"/>
+            <previous-task id="12" start="2026-09-26" duration="5" meeting="false" super="true"/>
+            <previous-task id="13" start="2026-09-26" duration="3" meeting="false" super="false"/>
+            <previous-task id="14" start="2026-09-26" duration="4" meeting="false" super="false"/>
+            <previous-task id="15" start="2026-10-01" duration="2" meeting="false" super="false"/>
+            <previous-task id="16" start="2026-10-02" duration="1" meeting="false" super="false"/>
+            <previous-task id="17" start="2026-10-03" duration="0" meeting="true" super="false"/>
+            <previous-task id="18" start="2026-10-03" duration="28" meeting="false" super="true"/>
+            <previous-task id="19" start="2026-10-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="20" start="2026-10-05" duration="3" meeting="false" super="false"/>
+            <previous-task id="21" start="2026-10-08" duration="0" meeting="true" super="false"/>
+            <previous-task id="22" start="2026-10-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="23" start="2026-10-13" duration="4" meeting="false" super="false"/>
+            <previous-task id="24" start="2026-10-16" duration="6" meeting="false" super="false"/>
+            <previous-task id="25" start="2026-10-26" duration="2" meeting="false" super="false"/>
+            <previous-task id="26" start="2026-10-28" duration="2" meeting="false" super="false"/>
+            <previous-task id="27" start="2026-10-31" duration="4" meeting="false" super="false"/>
+            <previous-task id="28" start="2026-10-30" duration="0" meeting="true" super="false"/>
+            <previous-task id="29" start="2026-10-23" duration="54" meeting="false" super="true"/>
+            <previous-task id="30" start="2026-10-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="31" start="2026-10-26" duration="4" meeting="false" super="false"/>
+            <previous-task id="32" start="2026-11-13" duration="4" meeting="false" super="false"/>
+            <previous-task id="33" start="2026-11-16" duration="5" meeting="false" super="false"/>
+            <previous-task id="34" start="2026-11-21" duration="0" meeting="true" super="false"/>
+            <previous-task id="35" start="2026-11-21" duration="1" meeting="false" super="false"/>
+            <previous-task id="36" start="2026-11-23" duration="7" meeting="false" super="false"/>
+            <previous-task id="37" start="2026-11-26" duration="2" meeting="false" super="false"/>
+            <previous-task id="38" start="2026-11-28" duration="4" meeting="false" super="false"/>
+            <previous-task id="39" start="2026-12-03" duration="5" meeting="false" super="false"/>
+            <previous-task id="40" start="2026-12-23" duration="3" meeting="false" super="false"/>
+            <previous-task id="41" start="2026-12-17" duration="5" meeting="false" super="false"/>
+            <previous-task id="42" start="2027-01-06" duration="0" meeting="true" super="false"/>
+            <previous-task id="43" start="2026-11-02" duration="48" meeting="false" super="true"/>
+            <previous-task id="44" start="2026-11-02" duration="10" meeting="false" super="false"/>
+            <previous-task id="45" start="2026-11-05" duration="3" meeting="false" super="false"/>
+            <previous-task id="46" start="2026-11-07" duration="3" meeting="false" super="false"/>
+            <previous-task id="47" start="2026-12-05" duration="9" meeting="false" super="false"/>
+            <previous-task id="48" start="2026-12-10" duration="3" meeting="false" super="false"/>
+            <previous-task id="49" start="2026-12-11" duration="2" meeting="false" super="false"/>
+            <previous-task id="50" start="2027-01-06" duration="2" meeting="false" super="false"/>
+            <previous-task id="51" start="2027-01-08" duration="15" meeting="false" super="true"/>
+            <previous-task id="52" start="2027-01-08" duration="4" meeting="false" super="false"/>
+            <previous-task id="53" start="2027-01-13" duration="3" meeting="false" super="false"/>
+            <previous-task id="54" start="2027-01-16" duration="2" meeting="false" super="false"/>
+            <previous-task id="55" start="2027-01-19" duration="4" meeting="false" super="false"/>
+            <previous-task id="56" start="2027-01-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="57" start="2027-01-21" duration="3" meeting="false" super="false"/>
+            <previous-task id="58" start="2027-01-26" duration="0" meeting="true" super="false"/>
+            <previous-task id="59" start="2026-10-03" duration="131" meeting="false" super="true"/>
+            <previous-task id="60" start="2026-10-30" duration="4" meeting="false" super="false"/>
+            <previous-task id="61" start="2026-10-03" duration="6" meeting="false" super="false"/>
+            <previous-task id="62" start="2026-11-13" duration="4" meeting="false" super="false"/>
+            <previous-task id="63" start="2026-12-17" duration="4" meeting="false" super="false"/>
+            <previous-task id="64" start="2026-12-22" duration="1" meeting="false" super="false"/>
+            <previous-task id="65" start="2027-01-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="66" start="2027-01-25" duration="2" meeting="false" super="false"/>
+            <previous-task id="67" start="2027-03-12" duration="4" meeting="false" super="false"/>
+            <previous-task id="68" start="2027-03-17" duration="1" meeting="false" super="false"/>
+            <previous-task id="69" start="2026-11-13" duration="95" meeting="false" super="true"/>
+            <previous-task id="70" start="2026-11-19" duration="2" meeting="false" super="false"/>
+            <previous-task id="71" start="2026-11-13" duration="4" meeting="false" super="false"/>
+            <previous-task id="72" start="2026-12-17" duration="4" meeting="false" super="false"/>
+            <previous-task id="73" start="2026-11-13" duration="2" meeting="false" super="false"/>
+            <previous-task id="74" start="2026-12-22" duration="2" meeting="false" super="false"/>
+            <previous-task id="75" start="2027-02-10" duration="5" meeting="false" super="false"/>
+            <previous-task id="76" start="2027-02-12" duration="2" meeting="false" super="false"/>
+            <previous-task id="77" start="2027-03-12" duration="3" meeting="false" super="false"/>
+            <previous-task id="78" start="2027-03-16" duration="1" meeting="false" super="false"/>
+            <previous-task id="79" start="2026-12-23" duration="42" meeting="false" super="true"/>
+            <previous-task id="80" start="2027-01-08" duration="10" meeting="false" super="false"/>
+            <previous-task id="81" start="2027-01-26" duration="8" meeting="false" super="false"/>
+            <previous-task id="82" start="2027-01-20" duration="4" meeting="false" super="false"/>
+            <previous-task id="83" start="2027-02-04" duration="14" meeting="false" super="false"/>
+            <previous-task id="84" start="2026-12-23" duration="5" meeting="false" super="false"/>
+            <previous-task id="85" start="2027-01-20" duration="29" meeting="false" super="true"/>
+            <previous-task id="86" start="2027-01-20" duration="4" meeting="false" super="false"/>
+            <previous-task id="87" start="2027-02-04" duration="3" meeting="false" super="false"/>
+            <previous-task id="88" start="2027-02-10" duration="6" meeting="false" super="false"/>
+            <previous-task id="89" start="2027-02-20" duration="2" meeting="false" super="false"/>
+            <previous-task id="90" start="2027-02-20" duration="14" meeting="false" super="true"/>
+            <previous-task id="91" start="2027-02-20" duration="4" meeting="false" super="false"/>
+            <previous-task id="92" start="2027-02-25" duration="4" meeting="false" super="false"/>
+            <previous-task id="93" start="2027-03-03" duration="5" meeting="false" super="false"/>
+            <previous-task id="94" start="2027-02-25" duration="2" meeting="false" super="false"/>
+            <previous-task id="95" start="2027-03-03" duration="4" meeting="false" super="false"/>
+            <previous-task id="96" start="2027-02-26" duration="3" meeting="false" super="false"/>
+            <previous-task id="97" start="2027-03-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="98" start="2027-02-04" duration="7" meeting="false" super="true"/>
+            <previous-task id="99" start="2027-02-04" duration="5" meeting="false" super="false"/>
+            <previous-task id="100" start="2027-02-10" duration="2" meeting="false" super="false"/>
+            <previous-task id="101" start="2027-02-20" duration="19" meeting="false" super="true"/>
+            <previous-task id="102" start="2027-02-20" duration="3" meeting="false" super="false"/>
+            <previous-task id="103" start="2027-02-24" duration="3" meeting="false" super="false"/>
+            <previous-task id="104" start="2027-03-03" duration="3" meeting="false" super="false"/>
+            <previous-task id="105" start="2027-02-27" duration="3" meeting="false" super="false"/>
+            <previous-task id="106" start="2027-03-10" duration="5" meeting="false" super="false"/>
+            <previous-task id="107" start="2027-02-25" duration="2" meeting="false" super="false"/>
+            <previous-task id="108" start="2027-02-12" duration="23" meeting="false" super="true"/>
+            <previous-task id="109" start="2027-02-12" duration="5" meeting="false" super="false"/>
+            <previous-task id="110" start="2027-02-18" duration="4" meeting="false" super="false"/>
+            <previous-task id="111" start="2027-03-02" duration="4" meeting="false" super="false"/>
+            <previous-task id="112" start="2027-03-06" duration="3" meeting="false" super="false"/>
+            <previous-task id="113" start="2027-03-08" duration="4" meeting="false" super="false"/>
+            <previous-task id="114" start="2026-11-23" duration="87" meeting="false" super="true"/>
+            <previous-task id="115" start="2026-11-23" duration="4" meeting="false" super="false"/>
+            <previous-task id="116" start="2027-02-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="117" start="2027-03-16" duration="1" meeting="false" super="false"/>
+            <previous-task id="118" start="2027-03-06" duration="2" meeting="false" super="false"/>
+            <previous-task id="119" start="2027-03-18" duration="8" meeting="false" super="true"/>
+            <previous-task id="120" start="2027-03-18" duration="2" meeting="false" super="false"/>
+            <previous-task id="121" start="2027-03-20" duration="1" meeting="false" super="false"/>
+            <previous-task id="122" start="2027-03-22" duration="3" meeting="false" super="false"/>
+            <previous-task id="123" start="2027-03-27" duration="2" meeting="false" super="false"/>
+            <previous-task id="124" start="2027-03-22" duration="3" meeting="false" super="false"/>
+            <previous-task id="125" start="2027-03-27" duration="2" meeting="false" super="false"/>
+            <previous-task id="126" start="2027-03-30" duration="0" meeting="true" super="false"/>
+            <previous-task id="127" start="2026-09-18" duration="151" meeting="false" super="true"/>
+            <previous-task id="128" start="2026-09-18" duration="151" meeting="false" super="false"/>
+            <previous-task id="129" start="2026-09-18" duration="151" meeting="false" super="false"/>
+            <previous-task id="130" start="2026-09-18" duration="151" meeting="false" super="false"/>
+            <previous-task id="131" start="2026-09-18" duration="151" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Dirección técnica"/>
+        <role id="2" name="Servicios de obra"/>
+        <role id="3" name="Albañilería"/>
+        <role id="4" name="Hormigón armado"/>
+        <role id="5" name="Techos"/>
+        <role id="6" name="Instalaciones"/>
+        <role id="7" name="Terminaciones"/>
+        <role id="8" name="Carpintería y herrería"/>
+        <role id="9" name="Equipos"/>
+    </roles>
+</project>

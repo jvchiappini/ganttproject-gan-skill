@@ -1,0 +1,1845 @@
+{
+  "$schema": "../../schema/cronograma.schema.json",
+  "proyecto": {
+    "nombre": "Vivienda Unifamiliar - 2 plantas",
+    "empresa": "",
+    "inicio": "2026-09-18",
+    "locale": "es_AR",
+    "descripcion": "Vivienda unifamiliar de dos plantas, aprox. 160 m2 cubiertos (PB 85 m2 + PA 75 m2). Fundación de zapatas y cimiento de PBC, estructura de HºAº con losa de entrepiso, mampostería de ladrillo común, techo de tejas sobre estructura de madera. Cómputos y rendimientos de referencia: reemplazarlos por los del proyecto."
+  },
+  "informe": {
+    "documento": "PCO-VU-01",
+    "revision": "A",
+    "cliente": "Comitente a definir",
+    "ubicacion": "Asunción, Paraguay",
+    "elaboro": "",
+    "reviso": "",
+    "aprobo": "",
+    "moneda": "Gs.",
+    "supuestos": [
+      "Cómputos y rendimientos de referencia para una vivienda de 160 m2; reemplazar por los del proyecto.",
+      "Costos diarios de mano de obra estimados (jornal + cargas); no incluyen materiales."
+    ],
+    "observaciones": []
+  },
+  "calendario": {
+    "dias_laborables": [
+      "lun",
+      "mar",
+      "mie",
+      "jue",
+      "vie",
+      "sab"
+    ],
+    "feriados_preset": "PY",
+    "feriados": [],
+    "periodos_no_laborables": [
+      {
+        "desde": "2026-12-24",
+        "hasta": "2027-01-02",
+        "nombre": "Receso de fin de año"
+      }
+    ]
+  },
+  "recursos": [
+    {
+      "id": "DIR",
+      "abrev": "DIR",
+      "nombre": "Director de obra (Arq./Ing.)",
+      "rol": "Dirección técnica",
+      "costo_dia": 600000
+    },
+    {
+      "id": "ENC",
+      "abrev": "ENC",
+      "nombre": "Encargado de obra",
+      "rol": "Dirección técnica",
+      "costo_dia": 300000
+    },
+    {
+      "id": "SER",
+      "abrev": "SER",
+      "nombre": "Sereno",
+      "rol": "Servicios de obra",
+      "costo_dia": 120000
+    },
+    {
+      "id": "TOP",
+      "abrev": "TOP",
+      "nombre": "Topógrafo",
+      "rol": "Servicios de obra",
+      "costo_dia": 500000
+    },
+    {
+      "id": "OF",
+      "abrev": "OF",
+      "nombre": "Oficial albañil",
+      "rol": "Albañilería",
+      "costo_dia": 200000,
+      "disponibles": 4
+    },
+    {
+      "id": "AY",
+      "abrev": "AY",
+      "nombre": "Ayudante",
+      "rol": "Albañilería",
+      "costo_dia": 130000,
+      "disponibles": 8
+    },
+    {
+      "id": "ARM",
+      "abrev": "ARM",
+      "nombre": "Armador",
+      "rol": "Hormigón armado",
+      "costo_dia": 210000,
+      "disponibles": 2
+    },
+    {
+      "id": "CARP",
+      "abrev": "CARP",
+      "nombre": "Carpintero encofrador",
+      "rol": "Hormigón armado",
+      "costo_dia": 210000,
+      "disponibles": 2
+    },
+    {
+      "id": "TECH",
+      "abrev": "TECH",
+      "nombre": "Techista",
+      "rol": "Techos",
+      "costo_dia": 210000
+    },
+    {
+      "id": "PLOM",
+      "abrev": "PLOM",
+      "nombre": "Plomero sanitarista",
+      "rol": "Instalaciones",
+      "costo_dia": 230000
+    },
+    {
+      "id": "ELEC",
+      "abrev": "ELEC",
+      "nombre": "Electricista",
+      "rol": "Instalaciones",
+      "costo_dia": 230000
+    },
+    {
+      "id": "COL",
+      "abrev": "COL",
+      "nombre": "Colocador de pisos y revestimientos",
+      "rol": "Terminaciones",
+      "costo_dia": 220000
+    },
+    {
+      "id": "YES",
+      "abrev": "YES",
+      "nombre": "Yesero / cielorrasista",
+      "rol": "Terminaciones",
+      "costo_dia": 210000
+    },
+    {
+      "id": "PINT",
+      "abrev": "PINT",
+      "nombre": "Pintor",
+      "rol": "Terminaciones",
+      "costo_dia": 190000
+    },
+    {
+      "id": "HERR",
+      "abrev": "HERR",
+      "nombre": "Herrero / aberturista",
+      "rol": "Carpintería y herrería",
+      "costo_dia": 230000
+    },
+    {
+      "id": "EBAN",
+      "abrev": "EBAN",
+      "nombre": "Carpintero ebanista",
+      "rol": "Carpintería y herrería",
+      "costo_dia": 230000
+    },
+    {
+      "id": "RETRO",
+      "abrev": "RETRO",
+      "nombre": "Retroexcavadora (con operador)",
+      "rol": "Equipos",
+      "costo_dia": 1200000
+    },
+    {
+      "id": "CAM",
+      "abrev": "CAM",
+      "nombre": "Camión volcador (con chofer)",
+      "rol": "Equipos",
+      "costo_dia": 700000
+    },
+    {
+      "id": "HORM",
+      "abrev": "HORM",
+      "nombre": "Hormigonera 350 L",
+      "rol": "Equipos",
+      "costo_dia": 80000
+    },
+    {
+      "id": "VIB",
+      "abrev": "VIB",
+      "nombre": "Vibrador de inmersión",
+      "rol": "Equipos",
+      "costo_dia": 60000
+    },
+    {
+      "id": "COMP",
+      "abrev": "COMP",
+      "nombre": "Compactadora (pisón)",
+      "rol": "Equipos",
+      "costo_dia": 90000
+    }
+  ],
+  "opciones": {
+    "modo_recursos": "individual",
+    "nivelar": true,
+    "tarea_raiz": true,
+    "numerar": true,
+    "color_por_grupo": true,
+    "columnas_personalizadas": true,
+    "columnas_visibles": [
+      "computo",
+      "cuadrilla",
+      "costo_total",
+      "holgura"
+    ],
+    "linea_base": "Línea base - plan original",
+    "notas_automaticas": true
+  },
+  "tareas": [
+    {
+      "id": "1",
+      "nombre": "Trabajos preliminares",
+      "hijos": [
+        {
+          "id": "1.1",
+          "nombre": "Acta de inicio de obra",
+          "hito": true
+        },
+        {
+          "id": "1.2",
+          "nombre": "Limpieza y nivelación del terreno",
+          "cantidad": 300,
+          "unidad": "m2",
+          "rendimiento": 100,
+          "cuadrillas": 1,
+          "predecesoras": [
+            "1.1"
+          ],
+          "recursos": {
+            "AY": 3
+          }
+        },
+        {
+          "id": "1.3",
+          "nombre": "Obrador, depósito y sanitario provisorio",
+          "duracion": 4,
+          "predecesoras": [
+            "1.2SS+1"
+          ],
+          "recursos": {
+            "CARP": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "1.4",
+          "nombre": "Cerco de obra y portón provisorio",
+          "cantidad": 60,
+          "unidad": "ml",
+          "rendimiento": 20,
+          "predecesoras": [
+            "1.2SS+1"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "1.5",
+          "nombre": "Conexiones provisorias de agua y energía",
+          "duracion": 2,
+          "predecesoras": [
+            "1.3SS+1"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "ELEC": 1
+          }
+        },
+        {
+          "id": "1.6",
+          "nombre": "Cartel de obra",
+          "duracion": 1,
+          "predecesoras": [
+            "1.3"
+          ],
+          "recursos": {
+            "AY": 1
+          }
+        },
+        {
+          "id": "1.7",
+          "nombre": "Replanteo planialtimétrico y caballetes",
+          "duracion": 2,
+          "predecesoras": [
+            "1.2"
+          ],
+          "recursos": {
+            "TOP": 1,
+            "OF": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "1.8",
+          "nombre": "Acopio inicial de materiales",
+          "duracion": 2,
+          "predecesoras": [
+            "1.3"
+          ],
+          "recursos": {
+            "AY": 2,
+            "CAM": 1
+          }
+        },
+        {
+          "id": "1.9",
+          "nombre": "Obrador y servicios provisorios habilitados",
+          "hito": true,
+          "predecesoras": [
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Movimiento de suelos",
+      "hijos": [
+        {
+          "id": "2.1",
+          "nombre": "Excavación de zanjas para cimientos",
+          "cantidad": 38,
+          "unidad": "m3",
+          "rendimiento": 15,
+          "predecesoras": [
+            "1.7",
+            "1.9"
+          ],
+          "recursos": {
+            "RETRO": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "2.2",
+          "nombre": "Excavación manual de pozos para zapatas",
+          "cantidad": 18,
+          "unidad": "m3",
+          "rendimiento": 2.5,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "1.7",
+            "1.9"
+          ],
+          "recursos": {
+            "AY": 4
+          }
+        },
+        {
+          "id": "2.3",
+          "nombre": "Retiro de tierra sobrante",
+          "cantidad": 40,
+          "unidad": "m3",
+          "rendimiento": 30,
+          "predecesoras": [
+            "2.1",
+            "2.2SS+2"
+          ],
+          "recursos": {
+            "CAM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "2.4",
+          "nombre": "Perfilado y compactación de fondo de excavación",
+          "duracion": 1,
+          "predecesoras": [
+            "2.1",
+            "2.2"
+          ],
+          "recursos": {
+            "AY": 2,
+            "COMP": 1
+          }
+        },
+        {
+          "id": "2.5",
+          "nombre": "Control: inspección de excavaciones y suelo de fundación",
+          "hito": true,
+          "predecesoras": [
+            "2.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Fundaciones",
+      "hijos": [
+        {
+          "id": "3.1",
+          "nombre": "Hormigón de limpieza",
+          "cantidad": 3,
+          "unidad": "m3",
+          "rendimiento": 3,
+          "predecesoras": [
+            "2.5",
+            "2.3"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 3,
+            "HORM": 1
+          }
+        },
+        {
+          "id": "3.2",
+          "nombre": "Armadura de zapatas y arranques de pilares",
+          "cantidad": 900,
+          "unidad": "kg",
+          "rendimiento": 180,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "3.1"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "3.3",
+          "nombre": "Control: inspección de armaduras de zapatas",
+          "hito": true,
+          "predecesoras": [
+            "3.2"
+          ]
+        },
+        {
+          "id": "3.4",
+          "nombre": "Hormigonado de zapatas (con toma de probetas)",
+          "cantidad": 9,
+          "unidad": "m3",
+          "rendimiento": 6,
+          "predecesoras": [
+            "3.3"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 5,
+            "HORM": 1,
+            "VIB": 1
+          }
+        },
+        {
+          "id": "3.5",
+          "nombre": "Cimiento de piedra bruta colocada (PBC)",
+          "cantidad": 22,
+          "unidad": "m3",
+          "rendimiento": 3,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "3.4FS+2"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 4
+          }
+        },
+        {
+          "id": "3.6",
+          "nombre": "Viga de fundación / encadenado inferior de HºAº",
+          "cantidad": 4.5,
+          "unidad": "m3",
+          "rendimiento": 0.75,
+          "predecesoras": [
+            "3.5SS+3",
+            "3.5FF+1"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "CARP": 2,
+            "AY": 2,
+            "HORM": 1
+          }
+        },
+        {
+          "id": "3.7",
+          "nombre": "Mampostería de nivelación (sobrecimiento)",
+          "cantidad": 18,
+          "unidad": "m2",
+          "rendimiento": 6,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "3.6FS+2"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "3.8",
+          "nombre": "Aislación hidrófuga horizontal (doble capa aisladora)",
+          "cantidad": 65,
+          "unidad": "ml",
+          "rendimiento": 35,
+          "predecesoras": [
+            "3.7"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "3.9",
+          "nombre": "Relleno y compactación interior por capas",
+          "cantidad": 40,
+          "unidad": "m3",
+          "rendimiento": 10,
+          "predecesoras": [
+            "3.8",
+            "7.1SS+1"
+          ],
+          "recursos": {
+            "AY": 3,
+            "COMP": 1
+          }
+        },
+        {
+          "id": "3.10",
+          "nombre": "Fundaciones terminadas",
+          "hito": true,
+          "predecesoras": [
+            "3.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Estructura de hormigón armado",
+      "hijos": [
+        {
+          "id": "4.1",
+          "nombre": "Pilares PB: armadura",
+          "cantidad": 600,
+          "unidad": "kg",
+          "rendimiento": 180,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "3.6"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "AY": 1
+          }
+        },
+        {
+          "id": "4.2",
+          "nombre": "Pilares PB: encofrado y hormigonado",
+          "cantidad": 3,
+          "unidad": "m3",
+          "rendimiento": 0.8,
+          "predecesoras": [
+            "4.1",
+            "3.7SS"
+          ],
+          "recursos": {
+            "CARP": 2,
+            "OF": 1,
+            "AY": 2,
+            "HORM": 1,
+            "VIB": 1
+          }
+        },
+        {
+          "id": "4.3",
+          "nombre": "Encofrado de vigas y losa de entrepiso (con apuntalamiento)",
+          "cantidad": 85,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "5.1",
+            "4.2FS+3",
+            "5.2",
+            "5.3"
+          ],
+          "recursos": {
+            "CARP": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "4.4",
+          "nombre": "Armadura de vigas y losa de entrepiso",
+          "cantidad": 2100,
+          "unidad": "kg",
+          "rendimiento": 220,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "4.3SS+2"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "4.5",
+          "nombre": "Control: inspección de encofrados, armaduras y cañerías en losa",
+          "hito": true,
+          "predecesoras": [
+            "4.4",
+            "8.1"
+          ]
+        },
+        {
+          "id": "4.6",
+          "nombre": "Hormigonado de losa de entrepiso (HºAº elaborado + bomba)",
+          "cantidad": 11,
+          "unidad": "m3",
+          "rendimiento": 15,
+          "predecesoras": [
+            "4.5"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 6,
+            "VIB": 1
+          }
+        },
+        {
+          "id": "4.7",
+          "nombre": "Curado de losa de entrepiso (riego 7 días)",
+          "duracion": 7,
+          "predecesoras": [
+            "4.6"
+          ],
+          "recursos": {
+            "AY": 0.5
+          }
+        },
+        {
+          "id": "4.8",
+          "nombre": "Pilares PA: armadura",
+          "cantidad": 450,
+          "unidad": "kg",
+          "rendimiento": 180,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "4.6FS+3"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "AY": 1
+          }
+        },
+        {
+          "id": "4.9",
+          "nombre": "Pilares PA: encofrado y hormigonado",
+          "cantidad": 2.5,
+          "unidad": "m3",
+          "rendimiento": 0.8,
+          "predecesoras": [
+            "4.8"
+          ],
+          "recursos": {
+            "CARP": 2,
+            "OF": 1,
+            "AY": 2,
+            "HORM": 1,
+            "VIB": 1
+          }
+        },
+        {
+          "id": "4.10",
+          "nombre": "Escalera de HºAº",
+          "cantidad": 2,
+          "unidad": "m3",
+          "rendimiento": 0.4,
+          "predecesoras": [
+            "4.6FS+5"
+          ],
+          "recursos": {
+            "ARM": 1,
+            "CARP": 1,
+            "AY": 2,
+            "HORM": 1
+          }
+        },
+        {
+          "id": "4.11",
+          "nombre": "Desencofrado de losa de entrepiso",
+          "duracion": 3,
+          "predecesoras": [
+            "4.6FS+18",
+            "4.7"
+          ],
+          "recursos": {
+            "CARP": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "4.12",
+          "nombre": "Encadenado superior PA (viga de techo)",
+          "cantidad": 3.5,
+          "unidad": "m3",
+          "rendimiento": 0.7,
+          "predecesoras": [
+            "5.4",
+            "5.5",
+            "5.6"
+          ],
+          "recursos": {
+            "ARM": 2,
+            "CARP": 2,
+            "AY": 2,
+            "HORM": 1,
+            "VIB": 1
+          }
+        },
+        {
+          "id": "4.13",
+          "nombre": "Estructura de HºAº terminada",
+          "hito": true,
+          "predecesoras": [
+            "4.10",
+            "4.11",
+            "4.12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Mampostería",
+      "hijos": [
+        {
+          "id": "5.1",
+          "nombre": "Mampostería de elevación PB (ladrillo común)",
+          "cantidad": 260,
+          "unidad": "m2",
+          "rendimiento": 9,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "4.2FS+2",
+            "3.8"
+          ],
+          "recursos": {
+            "OF": 3,
+            "AY": 3
+          }
+        },
+        {
+          "id": "5.2",
+          "nombre": "Colocación de marcos de aberturas PB",
+          "cantidad": 14,
+          "unidad": "un",
+          "rendimiento": 5,
+          "predecesoras": [
+            "5.1SS+3"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "5.3",
+          "nombre": "Dinteles y encadenados intermedios PB",
+          "duracion": 3,
+          "predecesoras": [
+            "5.1SS+5"
+          ],
+          "recursos": {
+            "ARM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "5.4",
+          "nombre": "Mampostería de elevación PA (ladrillo común)",
+          "cantidad": 220,
+          "unidad": "m2",
+          "rendimiento": 9,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "4.9FS+2"
+          ],
+          "recursos": {
+            "OF": 3,
+            "AY": 3
+          }
+        },
+        {
+          "id": "5.5",
+          "nombre": "Colocación de marcos de aberturas PA",
+          "cantidad": 12,
+          "unidad": "un",
+          "rendimiento": 5,
+          "predecesoras": [
+            "5.4SS+3"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "5.6",
+          "nombre": "Dinteles PA",
+          "duracion": 2,
+          "predecesoras": [
+            "5.4SS+4"
+          ],
+          "recursos": {
+            "ARM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "5.7",
+          "nombre": "Mampostería de tímpanos y cargas de techo",
+          "cantidad": 25,
+          "unidad": "m2",
+          "rendimiento": 8,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "4.12FS+3"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "nombre": "Techo y cubierta",
+      "hijos": [
+        {
+          "id": "6.1",
+          "nombre": "Estructura de madera (vigas y tirantes)",
+          "cantidad": 90,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "5.7",
+            "4.13"
+          ],
+          "recursos": {
+            "TECH": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "6.2",
+          "nombre": "Entablonado / machimbre",
+          "cantidad": 90,
+          "unidad": "m2",
+          "rendimiento": 20,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "6.1"
+          ],
+          "recursos": {
+            "TECH": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "6.3",
+          "nombre": "Aislación térmica e hidrófuga (membrana)",
+          "cantidad": 90,
+          "unidad": "m2",
+          "rendimiento": 50,
+          "predecesoras": [
+            "6.2"
+          ],
+          "recursos": {
+            "TECH": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "6.4",
+          "nombre": "Cubierta de tejas cerámicas",
+          "cantidad": 95,
+          "unidad": "m2",
+          "rendimiento": 15,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "6.3"
+          ],
+          "recursos": {
+            "TECH": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "6.5",
+          "nombre": "Cumbreras, limatesas y babetas",
+          "duracion": 2,
+          "predecesoras": [
+            "6.4"
+          ],
+          "recursos": {
+            "TECH": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "6.6",
+          "nombre": "Canaletas y bajadas pluviales",
+          "cantidad": 40,
+          "unidad": "ml",
+          "rendimiento": 15,
+          "predecesoras": [
+            "6.4SS+2"
+          ],
+          "recursos": {
+            "HERR": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "6.7",
+          "nombre": "Obra bajo techo",
+          "hito": true,
+          "predecesoras": [
+            "6.5",
+            "6.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nombre": "Instalación sanitaria",
+      "hijos": [
+        {
+          "id": "7.1",
+          "nombre": "Desagüe cloacal primario bajo piso y cámaras de inspección",
+          "cantidad": 45,
+          "unidad": "ml",
+          "rendimiento": 12,
+          "predecesoras": [
+            "3.8"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.2",
+          "nombre": "Cámara séptica y pozo absorbente",
+          "duracion": 6,
+          "predecesoras": [
+            "2.5"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "7.3",
+          "nombre": "Cañería embutida de agua fría/caliente y desagües PB",
+          "duracion": 4,
+          "predecesoras": [
+            "5.1"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.4",
+          "nombre": "Cañería embutida de agua fría/caliente y desagües PA",
+          "duracion": 4,
+          "predecesoras": [
+            "5.4",
+            "7.3"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.5",
+          "nombre": "Prueba hidráulica de cañerías",
+          "duracion": 1,
+          "predecesoras": [
+            "7.4"
+          ],
+          "recursos": {
+            "PLOM": 1
+          }
+        },
+        {
+          "id": "7.6",
+          "nombre": "Tanque elevado, montante y colector",
+          "duracion": 2,
+          "predecesoras": [
+            "4.12FS+5"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.7",
+          "nombre": "Desagües pluviales a nivel de terreno",
+          "cantidad": 30,
+          "unidad": "ml",
+          "rendimiento": 15,
+          "predecesoras": [
+            "6.6"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.8",
+          "nombre": "Colocación de artefactos sanitarios y griferías",
+          "cantidad": 14,
+          "unidad": "un",
+          "rendimiento": 4,
+          "predecesoras": [
+            "11.3",
+            "14.5"
+          ],
+          "recursos": {
+            "PLOM": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "7.9",
+          "nombre": "Prueba final y puesta en servicio sanitaria",
+          "duracion": 1,
+          "predecesoras": [
+            "7.8",
+            "7.5",
+            "7.6",
+            "7.2"
+          ],
+          "recursos": {
+            "PLOM": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nombre": "Instalación eléctrica",
+      "hijos": [
+        {
+          "id": "8.1",
+          "nombre": "Cañería eléctrica en losa de entrepiso",
+          "duracion": 2,
+          "predecesoras": [
+            "4.4SS+3"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "8.2",
+          "nombre": "Cañerías y cajas embutidas en muros PB",
+          "cantidad": 45,
+          "unidad": "bocas",
+          "rendimiento": 12,
+          "predecesoras": [
+            "5.1"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "8.3",
+          "nombre": "Cañerías y cajas embutidas en muros PA",
+          "cantidad": 40,
+          "unidad": "bocas",
+          "rendimiento": 12,
+          "predecesoras": [
+            "5.4",
+            "8.2"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "8.4",
+          "nombre": "Pilastra, medidor y acometida",
+          "duracion": 2,
+          "predecesoras": [
+            "5.1"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "OF": 1
+          }
+        },
+        {
+          "id": "8.5",
+          "nombre": "Instalaciones débiles (datos, TV, CCTV, portero)",
+          "duracion": 2,
+          "predecesoras": [
+            "8.3"
+          ],
+          "recursos": {
+            "ELEC": 1
+          }
+        },
+        {
+          "id": "8.6",
+          "nombre": "Cableado de circuitos",
+          "cantidad": 85,
+          "unidad": "bocas",
+          "rendimiento": 20,
+          "predecesoras": [
+            "9.2",
+            "8.3",
+            "12.1",
+            "8.5"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "8.7",
+          "nombre": "Tableros principal y seccionales",
+          "duracion": 2,
+          "predecesoras": [
+            "8.6SS+2",
+            "8.4"
+          ],
+          "recursos": {
+            "ELEC": 1
+          }
+        },
+        {
+          "id": "8.8",
+          "nombre": "Llaves, tomas y artefactos de iluminación",
+          "cantidad": 85,
+          "unidad": "un",
+          "rendimiento": 30,
+          "predecesoras": [
+            "14.5",
+            "8.6"
+          ],
+          "recursos": {
+            "ELEC": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "8.9",
+          "nombre": "Puesta a tierra, mediciones y pruebas",
+          "duracion": 1,
+          "predecesoras": [
+            "8.7",
+            "8.8"
+          ],
+          "recursos": {
+            "ELEC": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "nombre": "Revoques",
+      "hijos": [
+        {
+          "id": "9.1",
+          "nombre": "Revoque interior PB (grueso y fino)",
+          "cantidad": 380,
+          "unidad": "m2",
+          "rendimiento": 14,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "8.2",
+            "7.3",
+            "4.11"
+          ],
+          "recursos": {
+            "OF": 3,
+            "AY": 3
+          }
+        },
+        {
+          "id": "9.2",
+          "nombre": "Revoque interior PA (grueso y fino)",
+          "cantidad": 330,
+          "unidad": "m2",
+          "rendimiento": 14,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "8.3",
+            "7.4",
+            "6.7"
+          ],
+          "recursos": {
+            "OF": 3,
+            "AY": 3
+          }
+        },
+        {
+          "id": "9.3",
+          "nombre": "Revoque de cielorraso bajo losa (PB)",
+          "cantidad": 80,
+          "unidad": "m2",
+          "rendimiento": 10,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "4.11",
+            "8.1"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "9.4",
+          "nombre": "Revoque exterior con andamios",
+          "cantidad": 280,
+          "unidad": "m2",
+          "rendimiento": 10,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "6.7"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "9.5",
+          "nombre": "Revoque impermeable en baños y cocina",
+          "cantidad": 60,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "predecesoras": [
+            "7.5"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nombre": "Contrapisos y carpetas",
+      "hijos": [
+        {
+          "id": "10.1",
+          "nombre": "Contrapiso de cascotes PB",
+          "cantidad": 85,
+          "unidad": "m2",
+          "rendimiento": 25,
+          "predecesoras": [
+            "3.9",
+            "7.1",
+            "9.1"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "10.2",
+          "nombre": "Contrapiso sobre losa PA",
+          "cantidad": 75,
+          "unidad": "m2",
+          "rendimiento": 25,
+          "predecesoras": [
+            "9.2"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "10.3",
+          "nombre": "Carpeta de nivelación PB y PA",
+          "cantidad": 160,
+          "unidad": "m2",
+          "rendimiento": 30,
+          "predecesoras": [
+            "10.1FS+2",
+            "10.2FS+2"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "10.4",
+          "nombre": "Contrapiso exterior (galería y veredas)",
+          "cantidad": 45,
+          "unidad": "m2",
+          "rendimiento": 25,
+          "predecesoras": [
+            "9.4"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "nombre": "Pisos y revestimientos",
+      "hijos": [
+        {
+          "id": "11.1",
+          "nombre": "Piso porcelanato PB",
+          "cantidad": 85,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "10.3FS+3"
+          ],
+          "recursos": {
+            "COL": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "11.2",
+          "nombre": "Piso porcelanato PA",
+          "cantidad": 75,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "11.1"
+          ],
+          "recursos": {
+            "COL": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "11.3",
+          "nombre": "Revestimiento cerámico de baños y cocina",
+          "cantidad": 70,
+          "unidad": "m2",
+          "rendimiento": 8,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "9.5",
+            "11.2"
+          ],
+          "recursos": {
+            "COL": 2,
+            "AY": 1
+          }
+        },
+        {
+          "id": "11.4",
+          "nombre": "Revestimiento de escalera",
+          "duracion": 2,
+          "predecesoras": [
+            "11.1"
+          ],
+          "recursos": {
+            "COL": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "11.5",
+          "nombre": "Zócalos",
+          "cantidad": 160,
+          "unidad": "ml",
+          "rendimiento": 40,
+          "predecesoras": [
+            "11.2"
+          ],
+          "recursos": {
+            "COL": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "11.6",
+          "nombre": "Pisos exteriores (galería y vereda perimetral)",
+          "cantidad": 45,
+          "unidad": "m2",
+          "rendimiento": 15,
+          "predecesoras": [
+            "10.4FS+3"
+          ],
+          "recursos": {
+            "COL": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "11.7",
+          "nombre": "Mesada de cocina y lavadero",
+          "duracion": 1,
+          "predecesoras": [
+            "11.3"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "nombre": "Cielorrasos",
+      "hijos": [
+        {
+          "id": "12.1",
+          "nombre": "Cielorraso suspendido de placas de yeso PA",
+          "cantidad": 75,
+          "unidad": "m2",
+          "rendimiento": 15,
+          "predecesoras": [
+            "6.3",
+            "8.3",
+            "9.2"
+          ],
+          "recursos": {
+            "YES": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "12.2",
+          "nombre": "Masillado y encintado de juntas",
+          "cantidad": 75,
+          "unidad": "m2",
+          "rendimiento": 40,
+          "predecesoras": [
+            "12.1"
+          ],
+          "recursos": {
+            "YES": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "nombre": "Carpintería, herrería y vidrios",
+      "hijos": [
+        {
+          "id": "13.1",
+          "nombre": "Ventanas y puertas exteriores (aluminio)",
+          "cantidad": 14,
+          "unidad": "un",
+          "rendimiento": 5,
+          "predecesoras": [
+            "9.4",
+            "9.2"
+          ],
+          "recursos": {
+            "HERR": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "13.2",
+          "nombre": "Vidrios",
+          "cantidad": 30,
+          "unidad": "m2",
+          "rendimiento": 12,
+          "predecesoras": [
+            "13.1"
+          ],
+          "recursos": {
+            "HERR": 1
+          }
+        },
+        {
+          "id": "13.3",
+          "nombre": "Hojas de puertas interiores y herrajes",
+          "cantidad": 10,
+          "unidad": "un",
+          "rendimiento": 4,
+          "predecesoras": [
+            "11.2",
+            "14.2"
+          ],
+          "recursos": {
+            "EBAN": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "13.4",
+          "nombre": "Baranda de escalera y rejas",
+          "duracion": 3,
+          "predecesoras": [
+            "11.4"
+          ],
+          "recursos": {
+            "HERR": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "13.5",
+          "nombre": "Placares y muebles de cocina",
+          "duracion": 5,
+          "predecesoras": [
+            "11.7",
+            "14.2"
+          ],
+          "recursos": {
+            "EBAN": 1,
+            "AY": 1
+          }
+        },
+        {
+          "id": "13.6",
+          "nombre": "Portón vehicular",
+          "duracion": 2,
+          "predecesoras": [
+            "15.2"
+          ],
+          "recursos": {
+            "HERR": 1,
+            "AY": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "nombre": "Pintura",
+      "hijos": [
+        {
+          "id": "14.1",
+          "nombre": "Enduido y lijado interior (muros y cielorrasos)",
+          "cantidad": 865,
+          "unidad": "m2",
+          "rendimiento": 60,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "9.1",
+            "9.2",
+            "9.3",
+            "12.2"
+          ],
+          "recursos": {
+            "PINT": 3
+          }
+        },
+        {
+          "id": "14.2",
+          "nombre": "Pintura interior: fondo y primera mano",
+          "cantidad": 865,
+          "unidad": "m2",
+          "rendimiento": 80,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "14.1"
+          ],
+          "recursos": {
+            "PINT": 3
+          }
+        },
+        {
+          "id": "14.3",
+          "nombre": "Pintura exterior (fijador + 2 manos)",
+          "cantidad": 560,
+          "unidad": "m2",
+          "rendimiento": 70,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "9.4FS+7",
+            "13.1"
+          ],
+          "recursos": {
+            "PINT": 2
+          }
+        },
+        {
+          "id": "14.4",
+          "nombre": "Pintura de aberturas, herrería y maderas",
+          "duracion": 3,
+          "predecesoras": [
+            "13.3",
+            "13.4"
+          ],
+          "recursos": {
+            "PINT": 1
+          }
+        },
+        {
+          "id": "14.5",
+          "nombre": "Pintura interior: mano final",
+          "cantidad": 865,
+          "unidad": "m2",
+          "rendimiento": 80,
+          "cuadrillas": 3,
+          "predecesoras": [
+            "14.2",
+            "13.3",
+            "11.5"
+          ],
+          "recursos": {
+            "PINT": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "nombre": "Obras exteriores",
+      "hijos": [
+        {
+          "id": "15.1",
+          "nombre": "Muro perimetral definitivo",
+          "cantidad": 70,
+          "unidad": "m2",
+          "rendimiento": 9,
+          "cuadrillas": 2,
+          "predecesoras": [
+            "3.10"
+          ],
+          "recursos": {
+            "OF": 2,
+            "AY": 2
+          }
+        },
+        {
+          "id": "15.2",
+          "nombre": "Entrada vehicular y caminero",
+          "cantidad": 30,
+          "unidad": "m2",
+          "rendimiento": 15,
+          "predecesoras": [
+            "10.4",
+            "15.1"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 2
+          }
+        },
+        {
+          "id": "15.3",
+          "nombre": "Iluminación exterior",
+          "duracion": 1,
+          "predecesoras": [
+            "8.8",
+            "14.3"
+          ],
+          "recursos": {
+            "ELEC": 1
+          }
+        },
+        {
+          "id": "15.4",
+          "nombre": "Parquizado y empastado",
+          "cantidad": 120,
+          "unidad": "m2",
+          "rendimiento": 60,
+          "predecesoras": [
+            "15.2",
+            "14.3",
+            "11.6",
+            "7.7"
+          ],
+          "recursos": {
+            "AY": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "nombre": "Pruebas, limpieza y entrega",
+      "hijos": [
+        {
+          "id": "16.1",
+          "nombre": "Limpieza gruesa y retiro de escombros",
+          "duracion": 2,
+          "predecesoras": [
+            "14.5",
+            "14.4",
+            "7.9",
+            "8.9",
+            "13.5",
+            "13.2"
+          ],
+          "recursos": {
+            "AY": 3,
+            "CAM": 1
+          }
+        },
+        {
+          "id": "16.2",
+          "nombre": "Inspección final y lista de observaciones",
+          "duracion": 1,
+          "predecesoras": [
+            "16.1",
+            "15.3",
+            "15.4",
+            "13.6"
+          ],
+          "recursos": {
+            "DIR": 1
+          }
+        },
+        {
+          "id": "16.3",
+          "nombre": "Corrección de observaciones",
+          "duracion": 3,
+          "predecesoras": [
+            "16.2"
+          ],
+          "recursos": {
+            "OF": 1,
+            "AY": 1,
+            "PINT": 1
+          }
+        },
+        {
+          "id": "16.4",
+          "nombre": "Limpieza final fina",
+          "duracion": 2,
+          "predecesoras": [
+            "16.3"
+          ],
+          "recursos": {
+            "AY": 3
+          }
+        },
+        {
+          "id": "16.5",
+          "nombre": "Planos conforme a obra y manual de uso",
+          "duracion": 3,
+          "predecesoras": [
+            "16.2"
+          ],
+          "recursos": {
+            "DIR": 1
+          }
+        },
+        {
+          "id": "16.6",
+          "nombre": "Desmontaje de obrador",
+          "duracion": 2,
+          "predecesoras": [
+            "16.3"
+          ],
+          "recursos": {
+            "AY": 2,
+            "CAM": 1
+          }
+        },
+        {
+          "id": "16.7",
+          "nombre": "Recepción provisoria / entrega de obra",
+          "hito": true,
+          "predecesoras": [
+            "16.4",
+            "16.5",
+            "16.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "nombre": "Dirección y servicios de obra (permanentes)",
+      "hijos": [
+        {
+          "id": "17.1",
+          "nombre": "Conducción y supervisión de obra",
+          "abarca_obra": true,
+          "recursos": {
+            "ENC": 1
+          }
+        },
+        {
+          "id": "17.2",
+          "nombre": "Dirección técnica (visitas, libro de obra)",
+          "abarca_obra": true,
+          "recursos": {
+            "DIR": 0.2
+          }
+        },
+        {
+          "id": "17.3",
+          "nombre": "Vigilancia nocturna",
+          "abarca_obra": true,
+          "recursos": {
+            "SER": 1
+          }
+        },
+        {
+          "id": "17.4",
+          "nombre": "Limpieza periódica y seguridad e higiene",
+          "abarca_obra": true,
+          "recursos": {
+            "AY": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}
