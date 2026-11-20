@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }} · ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.8", "3.10", "3.12", "3.13"]
+        exclude:
+          - os: ubuntu-latest
+            python: "3.8"
+        include:
+          - os: ubuntu-22.04
+            python: "3.8"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Instalar jsonschema (solo para validar los ejemplos contra el esquema)
+        run: python -m pip install jsonschema
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Generar y auditar el ejemplo
+        shell: bash
+        run: |
+          S=skills/ganttproject-gan/scripts
+          P=skills/ganttproject-gan/assets/plantillas/vivienda_unifamiliar_completa.json
+          python $S/generar_gan.py $P /tmp/obra.gan --resumen /tmp/resumen.md --csv /tmp/csv
+          python $S/validar_gan.py /tmp/obra.gan
+          python $S/informe.py $P /tmp/informe.html
